@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StormLegend", "src\StormLegend\StormLegend.csproj", "{54A00CD1-3562-49B4-8636-D6131468ACAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StormLegend.Core", "src\StormLegend\StormLegend.Core.csproj", "{C8F549F9-06A6-44AC-BBD5-421E21204A77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StormLegend.Verify", "tests\StormLegend.Verify.csproj", "{2948EB10-293B-48BE-9970-DD1FE28FE843}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StormLegend.PickerPreview", "tests\StormLegend.PickerPreview.csproj", "{43ABCDBE-EB14-4CB5-A492-B93AC57C1D61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54A00CD1-3562-49B4-8636-D6131468ACAE}.Debug|x64.ActiveCfg = Debug|x64
+		{54A00CD1-3562-49B4-8636-D6131468ACAE}.Debug|x64.Build.0 = Debug|x64
+		{54A00CD1-3562-49B4-8636-D6131468ACAE}.Release|x64.ActiveCfg = Release|x64
+		{54A00CD1-3562-49B4-8636-D6131468ACAE}.Release|x64.Build.0 = Release|x64
+		{C8F549F9-06A6-44AC-BBD5-421E21204A77}.Debug|x64.ActiveCfg = Debug|x64
+		{C8F549F9-06A6-44AC-BBD5-421E21204A77}.Debug|x64.Build.0 = Debug|x64
+		{C8F549F9-06A6-44AC-BBD5-421E21204A77}.Release|x64.ActiveCfg = Release|x64
+		{C8F549F9-06A6-44AC-BBD5-421E21204A77}.Release|x64.Build.0 = Release|x64
+		{2948EB10-293B-48BE-9970-DD1FE28FE843}.Debug|x64.ActiveCfg = Debug|x64
+		{2948EB10-293B-48BE-9970-DD1FE28FE843}.Debug|x64.Build.0 = Debug|x64
+		{2948EB10-293B-48BE-9970-DD1FE28FE843}.Release|x64.ActiveCfg = Release|x64
+		{2948EB10-293B-48BE-9970-DD1FE28FE843}.Release|x64.Build.0 = Release|x64
+		{43ABCDBE-EB14-4CB5-A492-B93AC57C1D61}.Debug|x64.ActiveCfg = Debug|x64
+		{43ABCDBE-EB14-4CB5-A492-B93AC57C1D61}.Debug|x64.Build.0 = Debug|x64
+		{43ABCDBE-EB14-4CB5-A492-B93AC57C1D61}.Release|x64.ActiveCfg = Release|x64
+		{43ABCDBE-EB14-4CB5-A492-B93AC57C1D61}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+EndGlobal

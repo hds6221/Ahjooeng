@@ -1,0 +1,28 @@
+﻿{
+    "kind":  "native",
+    "finished":  "2026-10-21T17:14:57",
+    "computer":  "DESKTOP-LHRUUMC",
+    "autocad":  "23.1.172.0.0",
+    "dotnetFramework":  "4.8.09221",
+    "releaseFolder":  "C:\\Users\\owner\\Desktop\\개발파일\\Autocad_auto\\LegendAuto\\bin\\Final",
+    "files":  {
+                  "StormLegend.dll":  "364eea87e98067c01d31189605c19440e82611db170e040bbef33b2a282a38a0",
+                  "StormLegend.Core.dll":  "c93ab2d95a3c60adce1b498e4165871bf3c9b08d903cb8ceea3d4b2612c6c497",
+                  "StormLegend.Verify.dll":  "90fc6ebcd5ae395d42fde6cd9fc14774401a1134641f0a5b1ba57b457de37fab",
+                  "Template/범례템플릿.dwg":  "aa24ac456395cb3be2bce7bb45308381ae572d821100b60c0dd416f38b1bc568",
+                  "Template/범례템플릿.dxf":  "2c8e169eab7f66b222cda9776d8532f54516e3207c0cb3388b5086a459e64437",
+                  "Template/preview-catalog.json":  "82f32bb72b968909ec869e8074935d56373f6d3a4685d117c67ec445dea4e9dd",
+                  "Template/catalog-index.json":  "2f99d26f2f122c776eae5ad60902578af5e62fbe00f07ea64feeaaa621570293"
+              },
+    "loadedInAutoCAD":  [
+                            "LOADED: StormLegend.Verify C:\\Users\\owner\\Desktop\\개발파일\\Autocad_auto\\LegendAuto\\bin\\Verify\\StormLegend.Verify.dll",
+                            "LOADED: StormLegend.Core C:\\Users\\owner\\Desktop\\개발파일\\Autocad_auto\\LegendAuto\\bin\\Verify\\StormLegend.Core.dll",
+                            "LOADED: StormLegend C:\\Users\\owner\\Desktop\\개발파일\\Autocad_auto\\LegendAuto\\bin\\Final\\StormLegend.dll"
+                        ],
+    "results":  [
+                    "SUCCESS: 12832 native checks.",
+                    "PASS: actual NETLOAD + LEGENDALL (auxiliary) drew 434 loose entities (no wrapper block) at 1:300 (3x).",
+                    "PASS: UNDO restored the drawing to the state before LEGENDALL (entities=0)",
+                    "SUCCESS: 8 concurrency checks."
+                ]
+}

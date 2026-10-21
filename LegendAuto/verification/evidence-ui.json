@@ -1,0 +1,18 @@
+﻿{
+    "kind":  "ui",
+    "finished":  "2026-10-21T17:15:18",
+    "computer":  "DESKTOP-LHRUUMC",
+    "releaseFolder":  "C:\\Users\\owner\\Desktop\\개발파일\\Autocad_auto\\LegendAuto\\bin\\Final",
+    "files":  {
+                  "StormLegend.dll":  "364eea87e98067c01d31189605c19440e82611db170e040bbef33b2a282a38a0",
+                  "StormLegend.Core.dll":  "c93ab2d95a3c60adce1b498e4165871bf3c9b08d903cb8ceea3d4b2612c6c497",
+                  "Template/preview-catalog.json":  "82f32bb72b968909ec869e8074935d56373f6d3a4685d117c67ec445dea4e9dd"
+              },
+    "loaded":  [
+                   "LOADED: StormLegend.Core C:\\Users\\owner\\Desktop\\개발파일\\Autocad_auto\\LegendAuto\\bin\\Final\\StormLegend.Core.dll",
+                   "LOADED: StormLegend C:\\Users\\owner\\Desktop\\개발파일\\Autocad_auto\\LegendAuto\\bin\\Final\\StormLegend.dll"
+               ],
+    "result":  [
+                   "SUCCESS: 193 picker checks."
+               ]
+}

@@ -1,0 +1,4 @@
+PASS: actual NETLOAD + LEGENDALL (auxiliary) drew 434 loose entities (no wrapper block) at 1:300 (3x).
+LOADED: StormLegend.Verify C:\Users\owner\Desktop\개발파일\Autocad_auto\LegendAuto\bin\Verify\StormLegend.Verify.dll
+LOADED: StormLegend.Core C:\Users\owner\Desktop\개발파일\Autocad_auto\LegendAuto\bin\Verify\StormLegend.Core.dll
+LOADED: StormLegend C:\Users\owner\Desktop\개발파일\Autocad_auto\LegendAuto\bin\Final\StormLegend.dll

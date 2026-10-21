@@ -1,0 +1,31 @@
+PASS: C# template analyzer = verified mapping (7 categories / 94 items / 943 preview entities) in 1.20s
+PASS: 공사 / 8 items / all, subset, original; source geometry, headers, quantities, borders and rollback
+PASS: 유역 / 1 items / all, subset, original; source geometry, headers, quantities, borders and rollback
+PASS: 우수 / 22 items / all, subset, original; source geometry, headers, quantities, borders and rollback
+PASS: 오수 / 9 items / all, subset, original; source geometry, headers, quantities, borders and rollback
+PASS: 상수 / 11 items / all, subset, original; source geometry, headers, quantities, borders and rollback
+PASS: paving T=450 -> T=600, custom name, quantity 3.5; rollback; tampered source rejected
+PASS: 포장 / 9 items / all, subset, original; source geometry, headers, quantities, borders and rollback
+PASS: 부대 / 34 items / all, subset, original; source geometry, headers, quantities, borders and rollback
+INFO: 7-category batch generated in 0.62s (source template read once)
+PASS: block batch / canonical order / 100=1x, 300=3x / UCS / atomic rollback
+PASS: exploded generation (no wrapper blocks), same extents as block output, masks under content, repeat run adds no duplicate layers
+PASS: blank rows in middle and at bottom (no text/quantity/symbol, separators kept), ordering, preset round trip
+PASS: template edit — rows added in the blank row and below the frame are registered automatically, generate correctly, cache reused, broken template falls back
+PASS: [검토 1 프리셋 재연결] 
+PASS: [검토 2 템플릿별 복구] 
+PASS: [검토 3 명칭 상속] 
+PASS: [검토 5 미리보기 검증] 
+PASS: [검토 6 복사 단계 실패 복구] 
+PASS: [검토 7 정의 충돌·레이어 상태·선종류] 
+PASS: [검토 8 표 레이어로 그린 기호] 
+PASS: review-fix preset isolation, recovery archive, rename/delete/default, empty labels
+PASS: review-fix geometry comparison, ByLayer dependencies, repeated definition reuse
+PASS: review-fix invalid numeric values, damaged DXF recovery, immutable cache, missing DWG
+PASS: review-fix preset archive not re-reported, clean presets migrated while broken ones stay raw, backups pruned
+PASS: review-fix same-name block differing only in text is isolated
+PASS: review-fix repeated generation (template, both policies) adds no definitions and no new conflicts
+PASS: review-fix copy failure on a locked same-name layer is fully rolled back; cleanup failure + copy failure both reported
+PASS: review-fix DXF content changed (still valid) is detected before using shipped data
+PASS: review-fix hatch preview pattern data (9 hatches)
+SUCCESS: 12832 native checks.

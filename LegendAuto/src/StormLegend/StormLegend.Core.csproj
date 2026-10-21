@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net471</TargetFramework><OutputType>Library</OutputType><PlatformTarget>x64</PlatformTarget><Platforms>x64</Platforms><LangVersion>7.3</LangVersion>
+    <AssemblyName>StormLegend.Core</AssemblyName><Version>1.0.0</Version><EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <AutoCADPath Condition="'$(AutoCADPath)' == ''">C:\Program Files\Autodesk\AutoCAD 2020</AutoCADPath>
+    <LegendOut Condition="'$(LegendOut)' == ''">..\..\bin\$(Configuration)\</LegendOut><OutputPath>$(LegendOut)</OutputPath><AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="TemplateManifest.cs;LegendComposer.cs;CatalogIndex.cs;TemplateAnalyzer.cs;TemplateRepository.cs;PickerModel.cs;PresetStore.cs;LegendSettings.cs;LegendDefinitions.cs;FileGate.cs" />
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net471" Version="1.0.3" PrivateAssets="All" />
+    <Reference Include="AcCoreMgd"><HintPath>$(AutoCADPath)\AcCoreMgd.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="AcDbMgd"><HintPath>$(AutoCADPath)\AcDbMgd.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="System.Runtime.Serialization" />
+  </ItemGroup>
+</Project>

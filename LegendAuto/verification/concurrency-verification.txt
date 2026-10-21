@@ -1,0 +1,10 @@
+﻿PASS: 준비: 고친 템플릿 만들기 PASS: setup
+PASS: 프로세스 2개 모두 준비
+PASS: 프로세스 1: PASS: resolved source=Changed dir=a6-d6de75ef2a364118 paving=10 started=08:13:24.313 ms=1643
+PASS: 프로세스 2: PASS: resolved source=Changed dir=a6-d6de75ef2a364118 paving=10 started=08:13:24.313 ms=1359
+PASS: 모두 같은 분석본 사용: a6-d6de75ef2a364118
+PASS: 모두 고친 템플릿(포장 10행)으로 열림
+PASS: 정상 캐시를 격리·삭제하지 않음(남은 임시/격리 폴더 0)
+PASS: 분석본 폴더는 하나: a6-d6de75ef2a364118
+INFO: 시작 시각 08:13:24.313 / 08:13:24.313 · 소요(ms) 1643 / 1359
+SUCCESS: 8 concurrency checks.

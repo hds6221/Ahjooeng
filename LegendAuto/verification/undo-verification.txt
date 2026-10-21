@@ -1,0 +1,1 @@
+PASS: UNDO restored the drawing to the state before LEGENDALL (entities=0)

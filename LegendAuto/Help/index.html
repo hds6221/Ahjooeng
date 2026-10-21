@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>범례 생성 도움말</title>
+<style>
+  :root{--bar:#22262c;--side:#f4f6f8;--ink:#1f2328;--muted:#5b6470;--line:#d9dee4;--blue:#0a7bc2;--blue-soft:#e8f3fb;--orange:#e8a33c;--orange-soft:#fff5e6;--red:#e5484d;--paper:#fff;--code:#eef1f4}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"맑은 고딕","Malgun Gothic",system-ui,sans-serif;color:var(--ink);background:var(--paper);line-height:1.65;font-size:15px}
+  header{position:sticky;top:0;z-index:5;background:var(--bar);color:#fff;display:flex;align-items:center;gap:14px;padding:10px 22px}
+  header .logo{font-weight:700;letter-spacing:.3px}
+  header .logo b{color:#4fb3ef}
+  header .crumb{color:#aab3bd;font-size:13px}
+  .wrap{display:grid;grid-template-columns:240px minmax(0,1fr);min-height:calc(100vh - 44px)}
+  nav{background:var(--side);border-right:1px solid var(--line);padding:18px 0;position:sticky;top:44px;align-self:start;height:calc(100vh - 44px);overflow:auto}
+  nav p{margin:14px 20px 6px;font-size:12px;color:var(--muted);font-weight:700}
+  nav a{display:block;padding:6px 20px;color:var(--ink);text-decoration:none;font-size:14px;border-left:3px solid transparent}
+  nav a:hover{background:#e7ebef;border-left-color:var(--blue)}
+  nav a.on{font-weight:700;border-left-color:var(--blue);background:#e7ebef}
+  nav .ahj-sections{margin:2px 0 8px;border-left:1px solid var(--line);margin-left:22px}
+  nav .ahj-sections p{margin:10px 14px 4px}
+  nav .ahj-sections a{padding:4px 14px;font-size:13.5px}
+  main{padding:28px 40px 80px;max-width:980px}
+  h1{font-size:28px;margin:0 0 6px}
+  h2{font-size:21px;color:var(--blue);margin:44px 0 10px;padding-top:6px;border-top:1px solid var(--line)}
+  h3{font-size:16px;margin:22px 0 6px}
+  .lead{color:var(--muted);font-size:16px;margin:0 0 18px}
+  figure{margin:14px 0 18px}
+  figure img{max-width:100%;border:1px solid var(--line);border-radius:4px;box-shadow:0 2px 10px rgba(0,0,0,.08);display:block}
+  figcaption{font-size:13px;color:var(--muted);margin-top:6px}
+  .callouts{list-style:none;padding:0;margin:8px 0 18px;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:6px 18px}
+  .callouts li{display:flex;gap:10px;align-items:flex-start}
+  .n{flex:none;display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;background:var(--red);color:#fff;font-weight:700;font-size:12px;margin-top:2px}
+  .steps{counter-reset:s;list-style:none;padding:0;margin:10px 0 18px}
+  .steps>li{counter-increment:s;position:relative;padding:10px 14px 10px 54px;margin:8px 0;background:var(--side);border:1px solid var(--line);border-radius:6px}
+  .steps>li::before{content:counter(s);position:absolute;left:14px;top:10px;width:28px;height:28px;border-radius:50%;background:var(--blue);color:#fff;font-weight:700;display:grid;place-items:center}
+  .note,.warn{border-left:4px solid var(--blue);background:var(--blue-soft);padding:10px 14px;border-radius:0 6px 6px 0;margin:14px 0}
+  .warn{border-left-color:var(--orange);background:var(--orange-soft)}
+  .note b:first-child,.warn b:first-child{display:block;margin-bottom:2px}
+  kbd,code{font-family:Consolas,"D2Coding",monospace;background:var(--code);border:1px solid var(--line);border-radius:4px;padding:1px 6px;font-size:13px}
+  kbd{border-bottom-width:2px}
+  table{border-collapse:collapse;width:100%;margin:10px 0 18px;font-size:14px}
+  th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+  th{background:var(--side)}
+  .menu-demo{display:inline-block;font-size:13px;border:1px solid #9aa3ad;background:#f0f0f0;box-shadow:2px 3px 8px rgba(0,0,0,.18);margin:6px 0 4px}
+  .menu-demo .bar{background:#2b2f36;color:#ddd;padding:4px 10px;display:flex;gap:16px}
+  .menu-demo .bar .on{background:#4a90c2;color:#fff;padding:0 8px}
+  .menu-demo .cols{display:flex}
+  .menu-demo ul{list-style:none;margin:0;padding:4px 0;min-width:200px;background:#f7f7f7;border-right:1px solid #d0d0d0}
+  .menu-demo li{padding:4px 18px}
+  .menu-demo li.hl{background:#cce4f7}
+  .menu-demo li.sep{border-top:1px solid #ccc;margin:4px 6px;padding:0}
+  .menu-demo li .k{float:right;color:#777;margin-left:18px}
+  .tpl{display:grid;grid-template-columns:repeat(6,auto);width:max-content;max-width:100%;overflow:auto;border:2px solid #333;font-size:12px;margin:10px 0}
+  .tpl div{border:1px solid #888;padding:4px 10px;min-height:26px;background:#fff}
+  .tpl .h{background:#eee;font-weight:700}
+  .tpl .new{background:#fff3cd;border-color:var(--orange)}
+  .tpl .sym{width:70px;text-align:center}
+  @media (max-width:820px){.wrap{grid-template-columns:1fr}nav{position:static;height:auto;border-right:0;border-bottom:1px solid var(--line)}main{padding:20px 16px 60px}}
+</style>
+</head>
+<body>
+<header><span class="logo"><b>Ahjooeng</b> 도움말</span><span class="crumb">범례 생성 (LGD)</span></header>
+<div class="wrap">
+<nav id="ahj-nav" data-home="../../Help/index.html" data-base="../../Help/" data-command="LGD">
+  <p>시작하기</p>
+  <a href="#start">처음 사용하기</a>
+  <a href="#screen">화면 구성</a>
+  <a href="#quick">4단계로 범례 만들기</a>
+  <p>기능</p>
+  <a href="#toolbar">도구 막대</a>
+  <a href="#edit">명칭·규격·수량 고치기</a>
+  <a href="#blank">빈 행 넣기</a>
+  <a href="#footer">아래 버튼</a>
+  <a href="#settings">설정</a>
+  <a href="#template">템플릿에 항목 추가</a>
+  <p>참고</p>
+  <a href="#commands">명령어 목록</a>
+  <a href="#faq">문제 해결</a>
+</nav>
+<main>
+<h1>범례 생성</h1>
+<p class="lead">공사·유역·우수·오수·상수·포장·부대 범례표에서 필요한 항목만 골라 도면에 한 번에 그립니다. 기호·레이어·글꼴은 범례 템플릿 원본을 그대로 씁니다.</p>
+
+<h2 id="start">처음 사용하기</h2>
+<ol class="steps">
+  <li><b>AutoCAD를 닫고</b>, 받은 <code>Ahjooeng_v1.0_설치.zip</code>의 압축을 풉니다.</li>
+  <li>풀린 폴더의 <b>설치.bat</b>을 두 번 클릭합니다. "설치 완료!"가 나오면 Enter를 누릅니다.</li>
+  <li>AutoCAD를 켜면 메뉴 막대에 <b>Ahjooeng</b> 메뉴가 생깁니다. <b>Ahjooeng ▸ 범례 생성 (LGD)</b>을 누르거나, 명령줄에 <kbd>LGD</kbd>(또는 <kbd>LEGEND</kbd>)를 입력합니다.</li>
+</ol>
+<div class="note"><b>한 번만 설치하면 됩니다</b>AutoCAD를 켤 때마다 자동으로 불러오므로 NETLOAD는 하지 않아도 됩니다. 지울 때는 같은 폴더의 <b>제거.bat</b>을 실행합니다. 예전에 <code>APPLOAD</code> → 시작하기 세트에 StormLegend.dll을 넣어 두었다면 빼 주세요(두 번 불러오게 됩니다).</div>
+<div class="menu-demo" aria-label="Ahjooeng 메뉴 모양">
+  <div class="bar"><span>도움말(H)</span><span>DreamPlus</span><span class="on">Ahjooeng</span></div>
+  <div class="cols">
+    <ul><li class="hl">범례 생성 (LGD)</li><li class="sep"></li><li>도움말</li><li>프로그램 정보</li></ul>
+  </div>
+</div>
+<div class="note"><b>메뉴 쓰는 법</b><b>범례 생성 (LGD)</b>을 누르면 바로 범례 창이 열립니다. <b>도움말</b>을 누르면 명령 목록이 열리고, 거기서 <b>범례 생성 (LGD)</b>을 누르면 이 설명서가 나옵니다. <b>프로그램 정보</b>에서는 버전·설치 위치·템플릿 상태를 봅니다. 앞으로 명령이 늘어나면 메뉴와 도움말 목록에 한 줄씩 추가됩니다.</div>
+<div class="note"><b>참고</b>메뉴 막대가 보이지 않으면 명령줄에 <kbd>MENUBAR</kbd> → <kbd>1</kbd>을 입력합니다. 메뉴가 사라졌으면 <kbd>AHJOOENGMENU</kbd>를 입력하면 다시 생깁니다.</div>
+
+<h2 id="screen">화면 구성</h2>
+<figure><img src="images/help-window.png" alt="범례 생성 창의 각 부분에 번호를 붙인 그림"><figcaption>LGD를 입력하면 열리는 범례 생성 창</figcaption></figure>
+<ul class="callouts">
+  <li><span class="n">1</span><span><b>공종 탭</b> — 공사·우수 등 표를 고릅니다. 숫자는 고른 항목 수입니다.</span></li>
+  <li><span class="n">2</span><span><b>원본 항목</b> — 템플릿에 있는 항목입니다. 클릭하면 넣고, 다시 누르면 뺍니다.</span></li>
+  <li><span class="n">3</span><span><b>선택 항목</b> — 도면에 그려질 행입니다. 이 순서대로 그려집니다.</span></li>
+  <li><span class="n">4</span><span><b>CAD 미리보기</b> — 그려질 모양을 미리 봅니다(참고용).</span></li>
+  <li><span class="n">5</span><span><b>축척</b> — 1:100이 기본 크기, 1:300이면 3배로 그립니다.</span></li>
+  <li><span class="n">6</span><span><b>범례 생성</b> — 누른 뒤 도면에서 위치를 클릭합니다.</span></li>
+</ul>
+
+<h2 id="quick">4단계로 범례 만들기</h2>
+<ol class="steps">
+  <li><b>공종 고르기</b> — 위쪽 탭에서 <b>우수</b> 등을 누릅니다.</li>
+  <li><b>항목 넣기</b> — 왼쪽 <b>원본 항목</b>에서 필요한 줄을 클릭합니다. ✓ 표시가 붙고 가운데 표에 들어갑니다. 다른 공종도 같은 방법으로 고릅니다.</li>
+  <li><b>축척 확인</b> — 도구 막대 <b>축척</b>을 도면 축척에 맞춥니다(목록에서 고르거나 <code>1:300</code>, <code>300</code>처럼 입력).</li>
+  <li><b>생성</b> — <b>범례 생성</b> → 창이 닫히면 도면에서 범례의 <b>왼쪽 위</b>가 될 곳을 클릭합니다. 만든 범례는 선택된 상태라 바로 <kbd>M</kbd>(MOVE)로 옮길 수 있습니다.</li>
+</ol>
+<div class="note"><b>참고</b>여러 공종을 골랐으면 공사 → 유역 → 우수 → 오수 → 상수 → 포장 → 부대 순서로 가로 한 줄로 그립니다. 고르지 않은 공종은 건너뜁니다.</div>
+
+<h2 id="toolbar">도구 막대</h2>
+<figure><img src="images/help-toolbar.png" alt="도구 막대 버튼에 번호를 붙인 그림"></figure>
+<table>
+  <tr><th style="width:52px">번호</th><th style="width:150px">버튼</th><th>하는 일</th></tr>
+  <tr><td><span class="n">1</span></td><td>축척</td><td>도면 축척. ▾를 눌러 목록에서 고르거나 직접 입력합니다.</td></tr>
+  <tr><td><span class="n">2</span></td><td>불러오기 ▾</td><td>저장해 둔 구성이나 <b>전체 항목</b>을 불러와 한 번에 채웁니다. ★가 붙은 것이 시작할 때 쓰는 구성입니다.</td></tr>
+  <tr><td><span class="n">3</span></td><td>저장</td><td>지금 고른 항목·고친 명칭·수량·빈 행·순서를 이름 붙여 저장합니다. 다음에 열면 이 구성으로 시작합니다.</td></tr>
+  <tr><td><span class="n">4</span></td><td>비우기 ▾</td><td><b>이 공종만</b> 또는 <b>모든 공종</b>의 선택을 비웁니다.</td></tr>
+  <tr><td><span class="n">5</span></td><td>빼기</td><td>가운데 표에서 고른 행을 뺍니다(<kbd>Delete</kbd>).</td></tr>
+  <tr><td><span class="n">6</span><span class="n">7</span></td><td>위로 · 아래로</td><td>고른 행의 순서를 바꿉니다. 범례도 이 순서로 그려집니다. 맨 위·맨 아래에서는 흐리게 보입니다.</td></tr>
+  <tr><td><span class="n">8</span></td><td>빈 행 추가 ▾</td><td>공종 없이 빈 칸만 있는 행을 넣습니다. <a href="#blank">빈 행 넣기</a> 참고.</td></tr>
+</table>
+
+<h2 id="edit">명칭·규격·수량 고치기</h2>
+<figure><img src="images/help-edit.png" alt="명칭과 규격을 고친 선택 항목 표"><figcaption>포장 T=450을 T=600으로 고친 예. 고친 칸은 초록 글자로 보입니다.</figcaption></figure>
+<ol class="steps">
+  <li>가운데 표에서 <b>명칭·규격·수량</b> 칸을 클릭합니다.</li>
+  <li>내용을 입력하고 <kbd>Enter</kbd>를 누릅니다. 미리보기에 바로 반영됩니다.</li>
+  <li>원래대로 돌리려면 행에서 <b>마우스 오른쪽 버튼 → 원래 이름으로</b>를 누릅니다(수량은 그대로).</li>
+</ol>
+<div class="warn"><b>주의</b>수량은 <code>-</code> 또는 0 이상 숫자(정수 8자리, 소수 3자리)만 됩니다. 틀리면 창 아래에 빨간 글자로 이유가 나오고, 고칠 때까지 다른 공종으로 넘어가지 않습니다.</div>
+
+<h2 id="blank">빈 행 넣기</h2>
+<figure><img src="images/help-blank.png" alt="표 중간과 맨 아래에 빈 행을 넣은 화면"></figure>
+<ul class="callouts">
+  <li><span class="n">1</span><span><b>빈 행 추가 ▾</b> → <b>고른 행 바로 아래(표 중간)</b> 또는 <b>맨 아래</b></span></li>
+  <li><span class="n">2</span><span>빈 행은 <i>(빈 행)</i>으로 보이고, 도면에는 글자·기호 없이 칸만 그려집니다. 위로·아래로로 옮길 수 있습니다.</span></li>
+</ul>
+<div class="note"><b>참고</b>표 중간에 넣으려면 먼저 가운데 표에서 행을 클릭하세요. 유역은 한 세트 도형이라 빈 행을 넣을 수 없습니다.</div>
+
+<h2 id="footer">아래 버튼</h2>
+<figure><img src="images/help-footer.png" alt="창 아래쪽 버튼"></figure>
+<ul class="callouts">
+  <li><span class="n">1</span><span><b>템플릿 수정</b> — 범례 템플릿 DWG를 엽니다(<a href="#template">항목 추가</a>).</span></li>
+  <li><span class="n">2</span><span><b>설정</b> — 그리는 방식을 정합니다(<a href="#settings">설정</a>).</span></li>
+  <li><span class="n">3</span><span><b>사용 방법</b> — 이 설명서를 엽니다.</span></li>
+  <li><span class="n">4</span><span><b>범례 생성</b> — 고른 내용으로 도면에 그립니다.</span></li>
+</ul>
+
+<h2 id="settings">설정</h2>
+<p>범례 창 아래 <b>설정</b> 버튼(명령줄: <kbd>LEGENDSETTINGS</kbd>)</p>
+<figure><img src="images/help-settings.png" alt="범례 설정 창" style="max-width:420px"></figure>
+<table>
+  <tr><th style="width:52px">번호</th><th style="width:170px">설정</th><th>설명</th><th style="width:110px">처음 값</th></tr>
+  <tr><td><span class="n">1</span></td><td>생성 형태</td><td><b>개별 선·문자</b>: 글자·선을 바로 고칠 수 있습니다.<br><b>블록 하나로 묶기</b>: 한 번에 옮기거나 지우기 쉽습니다(고치려면 EXPLODE).</td><td>개별 선·문자</td></tr>
+  <tr><td><span class="n">2</span></td><td>공종 표 사이 간격</td><td>여러 공종을 가로로 놓을 때 표 사이 간격(1:100 기준). 1:300이면 3배로 벌어집니다.</td><td>300</td></tr>
+  <tr><td><span class="n">3</span></td><td>마지막 축척으로 시작</td><td>켜면 다음에 열 때 마지막으로 쓴 축척으로 시작합니다.</td><td>꺼짐</td></tr>
+  <tr><td><span class="n">4</span></td><td>만든 범례 선택해 두기</td><td>켜면 생성 직후 바로 MOVE·COPY할 수 있습니다.</td><td>켜짐</td></tr>
+  <tr><td>⑤</td><td>같은 이름의 정의가 있을 때</td><td>작업 도면에 템플릿과 이름은 같지만 색·글꼴 등이 다른 레이어·문자 스타일·선종류·블록이 있을 때.<br><b>도면 정의 그대로 쓰기</b>: 레이어가 늘지 않고, 다른 점을 명령줄에 알려줍니다.<br><b>범례 전용 이름으로 따로 넣기</b>: 다른 것만 <code>이름_범례</code>로 따로 넣어 템플릿과 똑같이 보입니다. 어느 쪽이든 기존 도면 정의는 바꾸지 않습니다.</td><td>도면 정의 그대로</td></tr>
+</table>
+<div class="note"><b>생성한 뒤 명령줄 "확인:" 문구</b>범례가 들어간 레이어가 꺼짐·동결·잠김·출력 안 함 상태이거나, 같은 이름의 정의가 템플릿과 다르면 "확인:"으로 알려줍니다. 프로그램은 레이어 상태를 바꾸지 않습니다.</div>
+
+<h2 id="template">템플릿에 항목 추가</h2>
+<p>새 기호나 항목이 필요하면 템플릿 DWG에 한 줄을 추가하고 저장하면 됩니다. 프로그램을 다시 설치할 필요가 없습니다.</p>
+<ol class="steps">
+  <li><b>템플릿 수정</b>(또는 <kbd>LEGENDTEMPLATE</kbd>)을 누르면 <code>범례템플릿.dwg</code>가 열립니다.</li>
+  <li>넣을 공종 표의 <b>맨 아래 행</b>을 <kbd>COPY</kbd>로 <b>450 아래</b>에 복사합니다.</li>
+  <li>복사한 행의 기호와 글자(명칭·규격·단위)를 고칩니다. 수량은 <code>-</code>로 둡니다.</li>
+  <li><kbd>Ctrl</kbd>+<kbd>S</kbd>로 저장하고, 작업 도면으로 돌아가 <kbd>LGD</kbd>를 실행합니다. 명령줄에 <code>포장 9→10</code>처럼 반영 결과가 나옵니다.</li>
+</ol>
+<div class="tpl" aria-label="템플릿 표에 행을 추가한 모습">
+  <div class="h sym">구 분</div><div class="h">명 칭</div><div class="h">규 격</div><div class="h">단위</div><div class="h">수량</div><div class="h">비 고</div>
+  <div class="sym">▨</div><div>보도포장</div><div>T=60</div><div>M2</div><div>-</div><div></div>
+  <div class="sym">▨</div><div>미끄럼방지포장</div><div>원본 기호</div><div>M2</div><div>-</div><div></div>
+  <div class="sym new">▩</div><div class="new">추가한 항목</div><div class="new">T=100</div><div class="new">M2</div><div class="new">-</div><div class="new"></div>
+</div>
+<div class="warn"><b>주의</b>표 테두리·세로 칸 선·제목 줄과 레이어 이름(<code>C-공종-범례…</code>)은 바꾸지 마세요. 테두리는 늘리지 않아도 생성할 때 자동으로 맞춥니다.</div>
+
+<h2 id="commands">명령어 목록</h2>
+<table>
+  <tr><th style="width:190px">명령</th><th>하는 일</th></tr>
+  <tr><td><kbd>LGD</kbd> / <kbd>LEGEND</kbd></td><td>범례 생성 창 열기</td></tr>
+  <tr><td><kbd>LEGENDALL</kbd></td><td>공종 번호와 축척을 입력해 한 공종 전체 넣기</td></tr>
+  <tr><td><kbd>LEGENDORIGINAL</kbd></td><td>원본 표를 병합 칸·빈 행까지 그대로 복사</td></tr>
+  <tr><td><kbd>LEGENDTEMPLATE</kbd></td><td>범례 템플릿 DWG 열기</td></tr>
+  <tr><td><kbd>LEGENDSETTINGS</kbd></td><td>범례 설정</td></tr>
+  <tr><td><kbd>LEGENDHELP</kbd></td><td>이 설명서 열기</td></tr>
+  <tr><td><kbd>AHJOOENGHELP</kbd></td><td>Ahjooeng 도움말(명령 목록) 열기 — 메뉴 [도움말]</td></tr>
+  <tr><td><kbd>AHJOOENGINFO</kbd></td><td>프로그램 정보(버전·설치 위치·템플릿 상태)</td></tr>
+  <tr><td><kbd>AHJOOENGMENU</kbd></td><td>메뉴 막대의 Ahjooeng 메뉴 다시 만들기</td></tr>
+  <tr><td><kbd>AHJOOENGDIA</kbd></td><td>FILEDIA·CMDDIA가 0이면 1로 되돌리기(파일 선택창 복구)</td></tr>
+</table>
+
+<h2 id="faq">문제 해결</h2>
+<h3>메뉴 막대에 Ahjooeng이 없어요</h3>
+<p><kbd>MENUBAR</kbd> → <kbd>1</kbd>로 메뉴 막대를 켜고, 그래도 없으면 <kbd>AHJOOENGMENU</kbd>를 입력합니다.</p>
+<h3>템플릿에 추가한 항목이 안 보여요</h3>
+<p>템플릿을 <b>저장</b>했는지 확인하세요. 명령줄의 <code>템플릿 주의:</code> 문구에 이유가 나옵니다(예: 명칭 칸이 비어 있음).</p>
+<h3>NETLOAD 때 파일 선택 창 대신 명령줄로 물어요</h3>
+<p><code>FILEDIA</code>·<code>CMDDIA</code>가 0인 경우입니다. 다른 자동화 도구가 일부러 0으로 둘 수도 있어 이 프로그램은 값을 바꾸지 않고, AutoCAD를 켤 때 명령줄에 알려만 줍니다. 파일 선택창을 다시 쓰려면 명령줄에 <kbd>AHJOOENGDIA</kbd>를 입력하세요.</p>
+<h3>"템플릿을 읽지 못해 … 마지막 정상 분석본으로 엽니다"가 나와요</h3>
+<p>고친 템플릿 DWG를 읽을 수 없는 상태입니다(저장 중이었거나 표가 손상됨). 이 템플릿이 마지막으로 정상이던 때의 내용으로 열었으니 새로 고친 항목은 빠져 있습니다. 템플릿을 다시 열어 저장한 뒤 <kbd>LGD</kbd>를 다시 실행하세요. <kbd>AHJOOENGINFO</kbd>에서 지금 쓰는 템플릿이 배포본·수정본·복구본 중 무엇인지 볼 수 있습니다.</p>
+<h3>"프리셋 다시 선택 필요" 창이 떠요</h3>
+<p>템플릿이 바뀌어 저장해 둔 프리셋의 일부 항목이 어느 항목인지 확실하지 않은 경우입니다(예: 명칭·규격이 같은 U형측구가 두 개). 엉뚱한 기호에 수량이 붙지 않도록 그 항목만 빼고 열었습니다. 다시 골라 [저장]하세요.</p>
+<h3>생성한 범례 글자가 다른 모양으로 보여요</h3>
+<p>템플릿에 쓰인 글꼴(SHX 등)이 이 PC에 없으면 다른 글꼴로 보입니다. 같은 글꼴 파일을 설치하세요.</p>
+</main>
+</div>
+<!-- 왼쪽에 Ahjooeng 명령 목록(설치본 Contents/Help). 없으면 위 목록만 보입니다. -->
+<script src="../../Help/commands.js"></script>
+<script src="../../Help/nav.js"></script>
+</body>
+</html>

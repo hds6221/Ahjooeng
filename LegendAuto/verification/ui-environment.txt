@@ -1,0 +1,1 @@
+WinForms preview DeviceDpi=96; normal size={Width=1136, Height=624}; minimum size={Width=900, Height=480}.

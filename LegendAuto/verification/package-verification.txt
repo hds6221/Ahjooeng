@@ -1,0 +1,82 @@
+PASS: evidence-native.json 있음
+PASS: evidence-ui.json 있음
+PASS: 네이티브 검증 성공 표식 SUCCESS: 12832 native checks. / PASS: actual NETLOAD + LEGENDALL (auxiliary) drew 434 loose entities (no wrapper block) at 1:300 (3x). / PASS: UNDO restored the drawing to the state before LEGENDALL (entities=0) / SUCCESS: 8 concurrency checks.
+PASS: UNDO 검증 성공 표식
+PASS: 두 프로세스 동시 분석 검증 성공 표식
+PASS: 화면 검증 성공 표식 SUCCESS: 193 picker checks.
+PASS: 화면 검증과 네이티브 검증이 같은 빌드 폴더(C:\Users\owner\Desktop\개발파일\Autocad_auto\LegendAuto\bin\Final)
+PASS: 검증한 파일 그대로: StormLegend.dll 364eea87e980
+PASS: 검증한 파일 그대로: StormLegend.Core.dll c93ab2d95a3c
+PASS: 검증한 파일 그대로: Template/범례템플릿.dwg aa24ac456395
+PASS: 검증한 파일 그대로: Template/범례템플릿.dxf 2c8e169eab7f
+PASS: 검증한 파일 그대로: Template/preview-catalog.json 82f32bb72b96
+PASS: 검증한 파일 그대로: Template/catalog-index.json 2f99d26f2f12
+PASS: 화면 검증 파일 그대로: StormLegend.dll
+PASS: 화면 검증 파일 그대로: StormLegend.Core.dll
+PASS: 화면 검증 파일 그대로: Template/preview-catalog.json
+PASS: AutoCAD에서 불러온 Core 위치 기록됨
+PASS: 보관용 도구 전용 파일은 설치본에서 제외
+PASS: 도움말 홈(명령 목록) 포함
+PASS: 도움말 홈의 명령 설명서 링크 확인: ../LegendAuto/Help/index.html
+PASS: 설치 묶음 DLL = 검증한 DLL: StormLegend.Core.dll
+PASS: 설치 묶음 DLL = 검증한 DLL: StormLegend.dll
+PASS: 설치 시험 SUCCESS: 19 install checks.
+  PASS: 처음 설치 성공
+  PASS: 설치된 DLL = 묶음 DLL
+  PASS: 처음 설치는 배포 템플릿
+  PASS: 임시 설치 폴더가 남지 않음
+  PASS: 재설치 성공
+  PASS: 재설치: 사용자 템플릿 보존
+  PASS: 재설치: 새 배포 템플릿은 (새 배포본)으로
+  PASS: 재설치: Template 폴더의 다른 사용자 파일도 옮김
+  PASS: 재설치: 이전 설치 백업 1개 (1)
+  PASS: 실패 주입: 설치가 실패로 끝남
+  PASS: 실패 주입: 이전 설치가 파일 하나까지 그대로 복원
+  PASS: 실패 주입: 기존 정상 백업은 그대로
+  PASS: 재시도 성공
+  PASS: 재시도: 사용자 템플릿 보존
+  PASS: DLL 사용 중: 설치 거부
+  PASS: DLL 사용 중: 설치본·템플릿 그대로
+  PASS: 백업은 최근 3개만 (3)
+  PASS: 여러 번 설치 후에도 사용자 템플릿 보존
+  PASS: 배포본 그대로인 템플릿은 새 배포본으로 교체(보존 대상 아님)
+  SUCCESS: 19 install checks.
+PASS: 설치 ZIP CRC
+PASS: 설치 ZIP 항목 install.ps1
+PASS: 설치 ZIP 항목 shipped-templates.txt
+PASS: 설치 ZIP 항목 uninstall.ps1
+PASS: 설치 ZIP 항목 먼저읽기.txt
+PASS: 설치 ZIP 항목 사용설명서.html
+PASS: 설치 ZIP 항목 설치.bat
+PASS: 설치 ZIP 항목 제거.bat
+PASS: 설치 ZIP 항목 Ahjooeng.bundle/PackageContents.xml
+PASS: 설치 ZIP 항목 Ahjooeng.bundle/Contents/Help/commands.js
+PASS: 설치 ZIP 항목 Ahjooeng.bundle/Contents/Help/index.html
+PASS: 설치 ZIP 항목 Ahjooeng.bundle/Contents/Help/nav.js
+PASS: 설치 ZIP 항목 Ahjooeng.bundle/Contents/LegendAuto/StormLegend.Core.dll
+PASS: 설치 ZIP 항목 Ahjooeng.bundle/Contents/LegendAuto/StormLegend.dll
+PASS: 설치 ZIP 항목 Ahjooeng.bundle/Contents/LegendAuto/Help/index.html
+PASS: 설치 ZIP 항목 Ahjooeng.bundle/Contents/LegendAuto/Template/catalog-index.json
+PASS: 설치 ZIP 항목 Ahjooeng.bundle/Contents/LegendAuto/Template/preview-catalog.json
+PASS: 설치 ZIP 항목 Ahjooeng.bundle/Contents/LegendAuto/Template/범례템플릿.dwg
+PASS: 설치 ZIP 항목 Ahjooeng.bundle/Contents/LegendAuto/Template/범례템플릿.dxf
+PASS: 설치 ZIP 항목 Ahjooeng.bundle/Contents/LegendAuto/Help/images/help-blank.png
+PASS: 설치 ZIP 항목 Ahjooeng.bundle/Contents/LegendAuto/Help/images/help-edit.png
+PASS: 설치 ZIP 항목 Ahjooeng.bundle/Contents/LegendAuto/Help/images/help-footer.png
+PASS: 설치 ZIP 항목 Ahjooeng.bundle/Contents/LegendAuto/Help/images/help-settings.png
+PASS: 설치 ZIP 항목 Ahjooeng.bundle/Contents/LegendAuto/Help/images/help-toolbar.png
+PASS: 설치 ZIP 항목 Ahjooeng.bundle/Contents/LegendAuto/Help/images/help-window.png
+PASS: 설치 ZIP 항목 Ahjooeng.bundle/Contents/LegendAuto/Template/categories/auxiliary.json
+PASS: 설치 ZIP 항목 Ahjooeng.bundle/Contents/LegendAuto/Template/categories/construction.json
+PASS: 설치 ZIP 항목 Ahjooeng.bundle/Contents/LegendAuto/Template/categories/paving.json
+PASS: 설치 ZIP 항목 Ahjooeng.bundle/Contents/LegendAuto/Template/categories/sewage.json
+PASS: 설치 ZIP 항목 Ahjooeng.bundle/Contents/LegendAuto/Template/categories/storm.json
+PASS: 설치 ZIP 항목 Ahjooeng.bundle/Contents/LegendAuto/Template/categories/water.json
+PASS: 설치 ZIP 항목 Ahjooeng.bundle/Contents/LegendAuto/Template/categories/watershed.json
+PASS: 공용 소스(Shared/CadUi, Shared/Ahjooeng) 포함
+PASS: 전체 소스 ZIP CRC (148개 파일)
+PASS: 새 폴더에 풀어 빌드 성공(StormLegend.dll·Core·Template·Help)
+6b63bb2d878f22dd855241161b94c2430a974dacbb21a3296f0917a359e70b55  Ahjooeng_v1.0_설치.zip
+76ac943a1a436c1cc1a1ec3e8e2febb41bc341c391052210ccd0bc274424fce0  Ahjooeng_v1.0_전체소스.zip
+검증 빌드 폴더: C:\Users\owner\Desktop\개발파일\Autocad_auto\LegendAuto\bin\Final
+SUCCESS: package verified

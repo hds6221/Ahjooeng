@@ -1,0 +1,626 @@
+{
+  "schemaVersion": 2,
+  "categoryId": "construction",
+  "categoryName": "공사",
+  "sourceFile": "범례템플릿.dxf",
+  "sourceSha256": "2c8e169eab7f66b222cda9776d8532f54516e3207c0cb3388b5086a459e64437",
+  "baseScaleDenominator": 100,
+  "origin": {
+    "x": 2270.1076635458066,
+    "y": 17827.009321446683,
+    "z": 0
+  },
+  "frameWidth": 7566.942395748818,
+  "frameBottomY": 12677.009321349464,
+  "bottomMargin": 99.99999999998363,
+  "tableWidth": 7366.942395748716,
+  "tableLeftX": 2370.107663545806,
+  "tableRightX": 9737.050059294523,
+  "titleTopY": 17727.0093214467,
+  "sourceBottomY": 12777.009321349447,
+  "rowHeight": 450,
+  "outerBorderHandle": "76B",
+  "wipeoutHandle": "757",
+  "allHandles": [
+    "757",
+    "758",
+    "759",
+    "75A",
+    "75B",
+    "75C",
+    "75D",
+    "75E",
+    "75F",
+    "760",
+    "761",
+    "762",
+    "763",
+    "764",
+    "765",
+    "766",
+    "767",
+    "768",
+    "769",
+    "76A",
+    "76B",
+    "76C",
+    "76D",
+    "76E",
+    "76F",
+    "770",
+    "771",
+    "772",
+    "773",
+    "774",
+    "775",
+    "776",
+    "777",
+    "778",
+    "779",
+    "77A",
+    "77B",
+    "77C",
+    "77D",
+    "77E",
+    "77F",
+    "780",
+    "781",
+    "782",
+    "783",
+    "784",
+    "785",
+    "786",
+    "787",
+    "788",
+    "789",
+    "78A",
+    "9B3",
+    "9B4",
+    "9B5",
+    "9B6",
+    "9B7",
+    "9B8",
+    "9B9",
+    "9BA",
+    "9BB",
+    "9BC",
+    "9BD",
+    "9BE",
+    "9BF"
+  ],
+  "groups": [],
+  "rows": [
+    {
+      "id": "construction_001",
+      "name": "계획고",
+      "spec": "원본 기호",
+      "remark": "",
+      "quantity": "-",
+      "unit": "",
+      "groupId": "construction_001",
+      "sourceTopY": 16827.0093214467,
+      "height": 450,
+      "contentHandles": [
+        "76F",
+        "770",
+        "771",
+        "772",
+        "773",
+        "76E"
+      ],
+      "symbolHandles": [
+        "76F",
+        "770",
+        "771",
+        "772",
+        "773"
+      ],
+      "quantityHandle": "77C",
+      "quantitySourceCenterY": 15252.009321071071,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "76F",
+            "770",
+            "771",
+            "772",
+            "773"
+          ],
+          "sourceCenterY": 16604.586619584334,
+          "centerX": 2995.1076637830647,
+          "width": 1150.0000004745166,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "76E"
+          ],
+          "sourceCenterY": 16602.00932133702,
+          "centerX": 4495.107664020323,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [],
+          "sourceCenterY": 16602.0093214467,
+          "centerX": 6145.651915477645,
+          "width": 1451.0885029146448
+        }
+      ]
+    },
+    {
+      "id": "construction_002",
+      "name": "구배 및 길이",
+      "spec": "원본 기호",
+      "remark": "",
+      "quantity": "-",
+      "unit": "",
+      "groupId": "construction_002",
+      "sourceTopY": 16377.009321446702,
+      "height": 450,
+      "contentHandles": [
+        "774",
+        "775",
+        "776",
+        "76C"
+      ],
+      "symbolHandles": [
+        "774",
+        "775",
+        "776"
+      ],
+      "quantityHandle": "77C",
+      "quantitySourceCenterY": 15252.009321071071,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "774",
+            "775",
+            "776"
+          ],
+          "sourceCenterY": 16153.283098686577,
+          "centerX": 2995.1076637830647,
+          "width": 1150.0000004745166,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "76C"
+          ],
+          "sourceCenterY": 16152.009321373285,
+          "centerX": 4495.107664020323,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [],
+          "sourceCenterY": 16152.009321446702,
+          "centerX": 6145.651915477645,
+          "width": 1451.0885029146448
+        }
+      ]
+    },
+    {
+      "id": "construction_003",
+      "name": "지하층",
+      "spec": "원본 기호",
+      "remark": "",
+      "quantity": "-",
+      "unit": "",
+      "groupId": "construction_003",
+      "sourceTopY": 15927.009321446702,
+      "height": 450,
+      "contentHandles": [
+        "777",
+        "77D",
+        "76D"
+      ],
+      "symbolHandles": [
+        "777",
+        "77D"
+      ],
+      "quantityHandle": "77C",
+      "quantitySourceCenterY": 15252.009321071071,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "777",
+            "77D"
+          ],
+          "sourceCenterY": 15702.009321486848,
+          "centerX": 2995.1076637830647,
+          "width": 1150.0000004745166,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "76D"
+          ],
+          "sourceCenterY": 15702.009321373285,
+          "centerX": 4495.107664020323,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [],
+          "sourceCenterY": 15702.009321446702,
+          "centerX": 6145.651915477645,
+          "width": 1451.0885029146448
+        }
+      ]
+    },
+    {
+      "id": "construction_004",
+      "name": "RC옹벽",
+      "spec": "H=0.0~0.0m",
+      "remark": "역L형 옹벽",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "construction_004",
+      "sourceTopY": 15477.009321446702,
+      "height": 450,
+      "contentHandles": [
+        "778",
+        "779",
+        "77A",
+        "77B",
+        "789"
+      ],
+      "symbolHandles": [
+        "778"
+      ],
+      "quantityHandle": "77C",
+      "quantitySourceCenterY": 15252.009321071071,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "778"
+          ],
+          "sourceCenterY": 15252.009321512664,
+          "centerX": 2995.1076637830647,
+          "width": 1150.0000004745166,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "779"
+          ],
+          "sourceCenterY": 15027.009321373285,
+          "centerX": 4495.107664020323,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "77A"
+          ],
+          "sourceCenterY": 15252.060272524579,
+          "centerX": 6145.651915477645,
+          "width": 1451.0885029146448
+        },
+        {
+          "column": 3,
+          "handles": [
+            "77B"
+          ],
+          "sourceCenterY": 15252.009321340805,
+          "centerX": 7204.123112877538,
+          "width": 465.8538918851409
+        },
+        {
+          "column": 5,
+          "handles": [
+            "789"
+          ],
+          "sourceCenterY": 15252.009320966588,
+          "centerX": 8987.050059057316,
+          "width": 1400.0000004744143
+        }
+      ]
+    },
+    {
+      "id": "construction_005",
+      "name": "RC옹벽",
+      "spec": "H=0.0~0.0m",
+      "remark": "L형 옹벽",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "construction_005",
+      "sourceTopY": 15027.009321446702,
+      "height": 450,
+      "contentHandles": [
+        "77E",
+        "779",
+        "77F",
+        "780",
+        "78A"
+      ],
+      "symbolHandles": [
+        "77E"
+      ],
+      "quantityHandle": "781",
+      "quantitySourceCenterY": 14802.009321071071,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "77E"
+          ],
+          "sourceCenterY": 14802.009321512664,
+          "centerX": 2995.1076637830647,
+          "width": 1150.0000004745166,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "779"
+          ],
+          "sourceCenterY": 15027.009321373285,
+          "centerX": 4495.107664020323,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "77F"
+          ],
+          "sourceCenterY": 14802.060272524579,
+          "centerX": 6145.651915477645,
+          "width": 1451.0885029146448
+        },
+        {
+          "column": 3,
+          "handles": [
+            "780"
+          ],
+          "sourceCenterY": 14802.009321340805,
+          "centerX": 7204.123112877538,
+          "width": 465.8538918851409
+        },
+        {
+          "column": 5,
+          "handles": [
+            "78A"
+          ],
+          "sourceCenterY": 14802.009320966588,
+          "centerX": 8987.050059057316,
+          "width": 1400.0000004744143
+        }
+      ]
+    },
+    {
+      "id": "construction_006",
+      "name": "보강토옹벽",
+      "spec": "H=0.0~0.0m",
+      "remark": "",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "construction_006",
+      "sourceTopY": 14577.009321446702,
+      "height": 450,
+      "contentHandles": [
+        "9B5",
+        "9BE",
+        "9B7",
+        "9B8"
+      ],
+      "symbolHandles": [
+        "9B5"
+      ],
+      "quantityHandle": "9B9",
+      "quantitySourceCenterY": 14352.009321212603,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "9B5"
+          ],
+          "sourceCenterY": 14352.009321512664,
+          "centerX": 2995.1076637830647,
+          "width": 1150.0000004745166,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "9BE"
+          ],
+          "sourceCenterY": 14352.009320985055,
+          "centerX": 4495.107664020323,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "9B7"
+          ],
+          "sourceCenterY": 14352.06027266611,
+          "centerX": 6145.651915477645,
+          "width": 1451.0885029146448
+        },
+        {
+          "column": 3,
+          "handles": [
+            "9B8"
+          ],
+          "sourceCenterY": 14352.009321482337,
+          "centerX": 7204.123112877538,
+          "width": 465.8538918851409
+        }
+      ]
+    },
+    {
+      "id": "construction_007",
+      "name": "패널옹벽",
+      "spec": "H=0.0~0.0m",
+      "remark": "",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "construction_007",
+      "sourceTopY": 14127.009321446702,
+      "height": 450,
+      "contentHandles": [
+        "9B6",
+        "9BD",
+        "9BA",
+        "9BB"
+      ],
+      "symbolHandles": [
+        "9B6"
+      ],
+      "quantityHandle": "9BC",
+      "quantitySourceCenterY": 13902.00932135412,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "9B6"
+          ],
+          "sourceCenterY": 13902.009321512664,
+          "centerX": 2995.1076637830647,
+          "width": 1150.0000004745166,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "9BD"
+          ],
+          "sourceCenterY": 13902.009321126572,
+          "centerX": 4495.107664020323,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "9BA"
+          ],
+          "sourceCenterY": 13902.060272807628,
+          "centerX": 6145.651915477645,
+          "width": 1451.0885029146448
+        },
+        {
+          "column": 3,
+          "handles": [
+            "9BB"
+          ],
+          "sourceCenterY": 13902.009321623855,
+          "centerX": 7204.123112877538,
+          "width": 465.8538918851409
+        }
+      ]
+    },
+    {
+      "id": "construction_008",
+      "name": "조경석쌓기",
+      "spec": "H=0.0~0.0m",
+      "remark": "",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "construction_008",
+      "sourceTopY": 13677.009321446702,
+      "height": 450,
+      "contentHandles": [
+        "787",
+        "788",
+        "783",
+        "784",
+        "785"
+      ],
+      "symbolHandles": [
+        "787",
+        "788"
+      ],
+      "quantityHandle": "786",
+      "quantitySourceCenterY": 13452.009321071071,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "787",
+            "788"
+          ],
+          "sourceCenterY": 13452.009321512693,
+          "centerX": 2995.1076637830647,
+          "width": 1150.0000004745166,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "783"
+          ],
+          "sourceCenterY": 13452.009321373285,
+          "centerX": 4495.107664020323,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "784"
+          ],
+          "sourceCenterY": 13452.060272524579,
+          "centerX": 6145.651915477645,
+          "width": 1451.0885029146448
+        },
+        {
+          "column": 3,
+          "handles": [
+            "785"
+          ],
+          "sourceCenterY": 13452.009321340805,
+          "centerX": 7204.123112877538,
+          "width": 465.8538918851409
+        }
+      ]
+    }
+  ],
+  "headerHandles": [
+    "759",
+    "75A",
+    "75B",
+    "75C",
+    "75D",
+    "75E",
+    "75F",
+    "760",
+    "761"
+  ],
+  "verticalBorderHandles": [
+    "758",
+    "767",
+    "768",
+    "769",
+    "76A"
+  ],
+  "auxBorderHandles": [],
+  "rowBoundaryHandles": [
+    "75A",
+    "762",
+    "763",
+    "764",
+    "765",
+    "766",
+    "782",
+    "9B3",
+    "9B4",
+    "9BF"
+  ],
+  "splitSeparatorHandles": [],
+  "rowsTopY": 16827.0093214467,
+  "headerTopY": 17277.0093214467,
+  "hasQuantityColumn": true,
+  "quantityCenterX": 7862.0500588201085,
+  "quantityCellWidth": 650.0,
+  "fullSeparatorHandle": "764",
+  "fullSeparatorY": 15477.009321233785
+}

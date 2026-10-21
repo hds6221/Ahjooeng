@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net471</TargetFramework>
+    <OutputType>Library</OutputType>
+    <PlatformTarget>x64</PlatformTarget>
+    <Platforms>x64</Platforms>
+    <LangVersion>7.3</LangVersion>
+    <AssemblyName>StormLegend</AssemblyName>
+    <RootNamespace>StormLegend</RootNamespace>
+    <Version>1.0.0</Version>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <AutoCADPath Condition="'$(AutoCADPath)' == ''">C:\Program Files\Autodesk\AutoCAD 2020</AutoCADPath>
+    <LegendOut Condition="'$(LegendOut)' == ''">..\..\bin\$(Configuration)\</LegendOut>
+    <OutputPath>$(LegendOut)</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <Deterministic>true</Deterministic>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Commands.cs;CategoryPanel.cs;PreviewCatalog.cs;PickerControls.cs;MultiLegendForm.cs;SettingsForm.cs;InfoForm.cs" />
+    <Compile Include="..\..\..\Shared\Ahjooeng\*.cs" Link="Ahjooeng\%(Filename)%(Extension)" />
+    <!-- 공용 화면 템플릿(Autocad_auto/Shared/CadUi). 소스로 함께 빌드해 명령끼리 DLL 버전 충돌이 없습니다. -->
+    <Compile Include="..\..\..\Shared\CadUi\*.cs" Link="CadUi\%(Filename)%(Extension)" />
+    <ProjectReference Include="StormLegend.Core.csproj" />
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net471" Version="1.0.3" PrivateAssets="All" />
+    <Reference Include="AcCoreMgd"><HintPath>$(AutoCADPath)\AcCoreMgd.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="AcDbMgd"><HintPath>$(AutoCADPath)\AcDbMgd.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="AcMgd"><HintPath>$(AutoCADPath)\AcMgd.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Content Include="..\..\Help\**\*"><Link>Help\%(RecursiveDir)%(Filename)%(Extension)</Link><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
+    <Content Include="..\..\Template\**\*"><Link>Template\%(RecursiveDir)%(Filename)%(Extension)</Link><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
+  </ItemGroup>
+  <Target Name="CheckAutoCADReferences" BeforeTargets="ResolveReferences">
+    <Error Condition="!Exists('$(AutoCADPath)\AcCoreMgd.dll') Or !Exists('$(AutoCADPath)\AcDbMgd.dll') Or !Exists('$(AutoCADPath)\AcMgd.dll')" Text="AutoCAD 2020 managed DLLs missing. Set AutoCADPath to the installed AutoCAD 2020 directory or 2020 ObjectARX managed reference directory." />
+  </Target>
+</Project>

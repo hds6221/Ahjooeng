@@ -1,0 +1,1846 @@
+{
+  "schemaVersion": 2,
+  "categoryId": "storm",
+  "categoryName": "우수",
+  "sourceFile": "범례템플릿.dxf",
+  "sourceSha256": "2c8e169eab7f66b222cda9776d8532f54516e3207c0cb3388b5086a459e64437",
+  "baseScaleDenominator": 100,
+  "origin": {
+    "x": 22053.7089387596,
+    "y": 17827.00932121167,
+    "z": 0
+  },
+  "frameWidth": 7566.942396460072,
+  "frameBottomY": 6827.009320972933,
+  "bottomMargin": 100.00000000000182,
+  "tableWidth": 7366.942396460039,
+  "tableLeftX": 22153.7089387596,
+  "tableRightX": 29520.651335219638,
+  "titleTopY": 17727.009321211706,
+  "sourceBottomY": 6927.009320972935,
+  "rowHeight": 450,
+  "outerBorderHandle": "7CB",
+  "wipeoutHandle": "78B",
+  "allHandles": [
+    "78B",
+    "78C",
+    "78D",
+    "78E",
+    "78F",
+    "790",
+    "791",
+    "792",
+    "793",
+    "794",
+    "795",
+    "796",
+    "797",
+    "798",
+    "799",
+    "79A",
+    "79B",
+    "79C",
+    "79D",
+    "79E",
+    "79F",
+    "7A0",
+    "7A1",
+    "7A2",
+    "7A3",
+    "7A4",
+    "7A5",
+    "7A6",
+    "7A7",
+    "7A8",
+    "7A9",
+    "7AA",
+    "7AB",
+    "7AC",
+    "7AD",
+    "7AE",
+    "7AF",
+    "7B0",
+    "7B1",
+    "7B2",
+    "7B3",
+    "7B4",
+    "7B5",
+    "7B6",
+    "7B7",
+    "7B8",
+    "7B9",
+    "7BA",
+    "7BB",
+    "7BC",
+    "7BD",
+    "7BE",
+    "7BF",
+    "7C0",
+    "7C1",
+    "7C2",
+    "7C3",
+    "7C4",
+    "7C5",
+    "7C6",
+    "7C7",
+    "7C8",
+    "7C9",
+    "7CA",
+    "7CB",
+    "7CC",
+    "7CD",
+    "7CE",
+    "7CF",
+    "7D0",
+    "7D1",
+    "7D2",
+    "7D3",
+    "7D4",
+    "7D5",
+    "7D6",
+    "7D7",
+    "7D8",
+    "7D9",
+    "7DA",
+    "7DB",
+    "7DC",
+    "7DD",
+    "7DE",
+    "7DF",
+    "7E0",
+    "7E1",
+    "7E2",
+    "7E3",
+    "7E4",
+    "7E5",
+    "7E6",
+    "7E7",
+    "7E8",
+    "7E9",
+    "7EA",
+    "7EB",
+    "7EC",
+    "7ED",
+    "7EE",
+    "7EF",
+    "7F0",
+    "7F1",
+    "7F2",
+    "7F3",
+    "7F4",
+    "7F5",
+    "7F6",
+    "7F7",
+    "7F8",
+    "7F9",
+    "7FA",
+    "7FB",
+    "7FC",
+    "7FD",
+    "7FE",
+    "7FF",
+    "800",
+    "801",
+    "802",
+    "803",
+    "804",
+    "805",
+    "806",
+    "807",
+    "808",
+    "809",
+    "80A",
+    "80B",
+    "80C",
+    "80D",
+    "80E",
+    "80F",
+    "810",
+    "811",
+    "812",
+    "813",
+    "814",
+    "815",
+    "816",
+    "817",
+    "818",
+    "819",
+    "940",
+    "941",
+    "942",
+    "943",
+    "944",
+    "945",
+    "946",
+    "947",
+    "948",
+    "949",
+    "94A",
+    "94B",
+    "94C",
+    "94D",
+    "94E",
+    "94F",
+    "950",
+    "951",
+    "952",
+    "953",
+    "954",
+    "955",
+    "956",
+    "957",
+    "958",
+    "959",
+    "95A",
+    "95B",
+    "95C",
+    "95D",
+    "965",
+    "966",
+    "967",
+    "968",
+    "969",
+    "96A",
+    "96B",
+    "96C",
+    "96D",
+    "96E",
+    "96F",
+    "970",
+    "971",
+    "972",
+    "973",
+    "974",
+    "975",
+    "976",
+    "977",
+    "978",
+    "979",
+    "97A",
+    "97B",
+    "97C",
+    "97D",
+    "97E",
+    "97F",
+    "980",
+    "981",
+    "982"
+  ],
+  "groups": [],
+  "rows": [
+    {
+      "id": "storm_001",
+      "name": "원형맨홀",
+      "spec": "D900",
+      "remark": "",
+      "quantity": "-",
+      "unit": "EA",
+      "groupId": "storm_001",
+      "sourceTopY": 16827.009321211706,
+      "height": 450,
+      "contentHandles": [
+        "7B7",
+        "7B8",
+        "7B9",
+        "7BA",
+        "7BB",
+        "7BC",
+        "7AF",
+        "7AA",
+        "7AE"
+      ],
+      "symbolHandles": [
+        "7B7",
+        "7B8",
+        "7B9",
+        "7BA",
+        "7BB",
+        "7BC"
+      ],
+      "quantityHandle": "7AD",
+      "quantitySourceCenterY": 16602.009320877383,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "7B7",
+            "7B8",
+            "7B9",
+            "7BA",
+            "7BB",
+            "7BC"
+          ],
+          "sourceCenterY": 16593.14526075987,
+          "centerX": 22778.708939150943,
+          "width": 1150.0000007826893,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "7AF"
+          ],
+          "sourceCenterY": 16152.009321138155,
+          "centerX": 24278.708939542288,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "7AA"
+          ],
+          "sourceCenterY": 16602.034796579792,
+          "centerX": 25929.253191047064,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "7AE"
+          ],
+          "sourceCenterY": 16602.009320935475,
+          "centerX": 26987.72438849441,
+          "width": 465.8538918851409
+        }
+      ]
+    },
+    {
+      "id": "storm_002",
+      "name": "원형맨홀",
+      "spec": "D1200",
+      "remark": "",
+      "quantity": "-",
+      "unit": "EA",
+      "groupId": "storm_002",
+      "sourceTopY": 16377.009321211706,
+      "height": 450,
+      "contentHandles": [
+        "7EC",
+        "7ED",
+        "7EE",
+        "7EF",
+        "7F0",
+        "7F1",
+        "7F2",
+        "7AF",
+        "7E9",
+        "7AC"
+      ],
+      "symbolHandles": [
+        "7EC",
+        "7ED",
+        "7EE",
+        "7EF",
+        "7F0",
+        "7F1",
+        "7F2"
+      ],
+      "quantityHandle": "7AB",
+      "quantitySourceCenterY": 16152.009320836058,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "7EC",
+            "7ED",
+            "7EE",
+            "7EF",
+            "7F0",
+            "7F1",
+            "7F2"
+          ],
+          "sourceCenterY": 16164.228556060241,
+          "centerX": 22778.708939150943,
+          "width": 1150.0000007826893,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "7AF"
+          ],
+          "sourceCenterY": 16152.009321138155,
+          "centerX": 24278.708939542288,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "7E9"
+          ],
+          "sourceCenterY": 16152.034796548813,
+          "centerX": 25929.253191047064,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "7AC"
+          ],
+          "sourceCenterY": 16152.009320935476,
+          "centerX": 26987.72438849441,
+          "width": 465.8538918851409
+        }
+      ]
+    },
+    {
+      "id": "storm_003",
+      "name": "원형맨홀",
+      "spec": "D1500",
+      "remark": "",
+      "quantity": "-",
+      "unit": "EA",
+      "groupId": "storm_003",
+      "sourceTopY": 15927.009321211706,
+      "height": 450,
+      "contentHandles": [
+        "941",
+        "942",
+        "943",
+        "944",
+        "945",
+        "946",
+        "947",
+        "7AF",
+        "948",
+        "7EB"
+      ],
+      "symbolHandles": [
+        "941",
+        "942",
+        "943",
+        "944",
+        "945",
+        "946",
+        "947"
+      ],
+      "quantityHandle": "7EA",
+      "quantitySourceCenterY": 15702.009320836058,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "941",
+            "942",
+            "943",
+            "944",
+            "945",
+            "946",
+            "947"
+          ],
+          "sourceCenterY": 15714.2285560603,
+          "centerX": 22778.708939150943,
+          "width": 1150.0000007826893,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "7AF"
+          ],
+          "sourceCenterY": 16152.009321138155,
+          "centerX": 24278.708939542288,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "948"
+          ],
+          "sourceCenterY": 15702.034796548813,
+          "centerX": 25929.253191047064,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "7EB"
+          ],
+          "sourceCenterY": 15702.009320935476,
+          "centerX": 26987.72438849441,
+          "width": 465.8538918851409
+        }
+      ]
+    },
+    {
+      "id": "storm_004",
+      "name": "우수관",
+      "spec": "D450",
+      "remark": "흄관",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "storm_004",
+      "sourceTopY": 15477.009321211706,
+      "height": 450,
+      "contentHandles": [
+        "7BD",
+        "7BE",
+        "7A5",
+        "7A4",
+        "7B3",
+        "7CC"
+      ],
+      "symbolHandles": [
+        "7BD",
+        "7BE"
+      ],
+      "quantityHandle": "7B2",
+      "quantitySourceCenterY": 15252.009320836029,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "7BD",
+            "7BE"
+          ],
+          "sourceCenterY": 15252.009321277592,
+          "centerX": 22778.708939150943,
+          "width": 1150.0000007826893,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "7A5"
+          ],
+          "sourceCenterY": 14802.009321138155,
+          "centerX": 24278.708939542288,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "7A4"
+          ],
+          "sourceCenterY": 15252.085747635685,
+          "centerX": 25929.253191047064,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "7B3"
+          ],
+          "sourceCenterY": 15252.009320935447,
+          "centerX": 26987.72438849441,
+          "width": 465.8538918851409
+        },
+        {
+          "column": 5,
+          "handles": [
+            "7CC"
+          ],
+          "sourceCenterY": 15252.009320674677,
+          "centerX": 28770.65133482831,
+          "width": 1400.0000007826566
+        }
+      ]
+    },
+    {
+      "id": "storm_005",
+      "name": "우수관",
+      "spec": "D600",
+      "remark": "흄관",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "storm_005",
+      "sourceTopY": 15027.009321211706,
+      "height": 450,
+      "contentHandles": [
+        "7F7",
+        "7F8",
+        "7A5",
+        "7F5",
+        "7F6",
+        "7FA"
+      ],
+      "symbolHandles": [
+        "7F7",
+        "7F8"
+      ],
+      "quantityHandle": "7F9",
+      "quantitySourceCenterY": 14802.009320836029,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "7F7",
+            "7F8"
+          ],
+          "sourceCenterY": 14802.009321318978,
+          "centerX": 22778.708939150943,
+          "width": 1150.0000007826893,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "7A5"
+          ],
+          "sourceCenterY": 14802.009321138155,
+          "centerX": 24278.708939542288,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "7F5"
+          ],
+          "sourceCenterY": 14802.085747718573,
+          "centerX": 25929.253191047064,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "7F6"
+          ],
+          "sourceCenterY": 14802.009321018335,
+          "centerX": 26987.72438849441,
+          "width": 465.8538918851409
+        },
+        {
+          "column": 5,
+          "handles": [
+            "7FA"
+          ],
+          "sourceCenterY": 14802.009320674677,
+          "centerX": 28770.65133482831,
+          "width": 1400.0000007826566
+        }
+      ]
+    },
+    {
+      "id": "storm_006",
+      "name": "우수관",
+      "spec": "D800",
+      "remark": "흄관",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "storm_006",
+      "sourceTopY": 14577.009321211706,
+      "height": 450,
+      "contentHandles": [
+        "94D",
+        "950",
+        "7A5",
+        "94B",
+        "94C",
+        "94F"
+      ],
+      "symbolHandles": [
+        "94D",
+        "950"
+      ],
+      "quantityHandle": "94E",
+      "quantitySourceCenterY": 14352.009320836029,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "94D",
+            "950"
+          ],
+          "sourceCenterY": 14352.009321318978,
+          "centerX": 22778.708939150943,
+          "width": 1150.0000007826893,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "7A5"
+          ],
+          "sourceCenterY": 14802.009321138155,
+          "centerX": 24278.708939542288,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "94B"
+          ],
+          "sourceCenterY": 14352.085747718573,
+          "centerX": 25929.253191047064,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "94C"
+          ],
+          "sourceCenterY": 14352.009321018335,
+          "centerX": 26987.72438849441,
+          "width": 465.8538918851409
+        },
+        {
+          "column": 5,
+          "handles": [
+            "94F"
+          ],
+          "sourceCenterY": 14352.009320674677,
+          "centerX": 28770.65133482831,
+          "width": 1400.0000007826566
+        }
+      ]
+    },
+    {
+      "id": "storm_007",
+      "name": "연결관",
+      "spec": "D250",
+      "remark": "PVC이중벽관",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "storm_007",
+      "sourceTopY": 14127.009321211706,
+      "height": 450,
+      "contentHandles": [
+        "7C0",
+        "7CF",
+        "7A2",
+        "7B1",
+        "7CD"
+      ],
+      "symbolHandles": [
+        "7C0"
+      ],
+      "quantityHandle": "7B0",
+      "quantitySourceCenterY": 13902.009320836058,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "7C0"
+          ],
+          "sourceCenterY": 13902.009321277621,
+          "centerX": 22778.708939150943,
+          "width": 1150.0000007826893,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "7CF"
+          ],
+          "sourceCenterY": 13677.009321138155,
+          "centerX": 24278.708939542288,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "7A2"
+          ],
+          "sourceCenterY": 13902.085747635714,
+          "centerX": 25929.253191047064,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "7B1"
+          ],
+          "sourceCenterY": 13902.009320935593,
+          "centerX": 26987.72438849441,
+          "width": 465.8538918851409
+        },
+        {
+          "column": 5,
+          "handles": [
+            "7CD"
+          ],
+          "sourceCenterY": 13902.009320674764,
+          "centerX": 28770.65133482831,
+          "width": 1400.0000007826566
+        }
+      ]
+    },
+    {
+      "id": "storm_008",
+      "name": "연결관",
+      "spec": "D300",
+      "remark": "PVC이중벽관",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "storm_008",
+      "sourceTopY": 13677.009321211706,
+      "height": 450,
+      "contentHandles": [
+        "7BF",
+        "7CF",
+        "79F",
+        "79E",
+        "7CE"
+      ],
+      "symbolHandles": [
+        "7BF"
+      ],
+      "quantityHandle": "79D",
+      "quantitySourceCenterY": 13452.009320836058,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "7BF"
+          ],
+          "sourceCenterY": 13452.009321277621,
+          "centerX": 22778.708939150943,
+          "width": 1150.0000007826893,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "7CF"
+          ],
+          "sourceCenterY": 13677.009321138155,
+          "centerX": 24278.708939542288,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "79F"
+          ],
+          "sourceCenterY": 13452.085747635714,
+          "centerX": 25929.253191047064,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "79E"
+          ],
+          "sourceCenterY": 13452.009320935593,
+          "centerX": 26987.72438849441,
+          "width": 465.8538918851409
+        },
+        {
+          "column": 5,
+          "handles": [
+            "7CE"
+          ],
+          "sourceCenterY": 13452.009320674764,
+          "centerX": 28770.65133482831,
+          "width": 1400.0000007826566
+        }
+      ]
+    },
+    {
+      "id": "storm_009",
+      "name": "집수정",
+      "spec": "450x450",
+      "remark": "",
+      "quantity": "-",
+      "unit": "EA",
+      "groupId": "storm_009",
+      "sourceTopY": 13227.009321211706,
+      "height": 450,
+      "contentHandles": [
+        "7D0",
+        "7D1",
+        "7D2",
+        "7D3",
+        "7D4",
+        "7D5",
+        "7D6",
+        "951",
+        "7A3",
+        "7A1"
+      ],
+      "symbolHandles": [
+        "7D0",
+        "7D1",
+        "7D2",
+        "7D3",
+        "7D4",
+        "7D5",
+        "7D6"
+      ],
+      "quantityHandle": "7A0",
+      "quantitySourceCenterY": 13002.009320836058,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "7D0",
+            "7D1",
+            "7D2",
+            "7D3",
+            "7D4",
+            "7D5",
+            "7D6"
+          ],
+          "sourceCenterY": 13002.00932127749,
+          "centerX": 22778.708939150943,
+          "width": 1150.0000007826893,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "951"
+          ],
+          "sourceCenterY": 12552.009321138155,
+          "centerX": 24278.708939542288,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "7A3"
+          ],
+          "sourceCenterY": 13002.085747635714,
+          "centerX": 25929.253191047064,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "7A1"
+          ],
+          "sourceCenterY": 13002.009320935593,
+          "centerX": 26987.72438849441,
+          "width": 465.8538918851409
+        }
+      ]
+    },
+    {
+      "id": "storm_010",
+      "name": "집수정",
+      "spec": "600x600",
+      "remark": "",
+      "quantity": "-",
+      "unit": "EA",
+      "groupId": "storm_010",
+      "sourceTopY": 12777.009321211706,
+      "height": 450,
+      "contentHandles": [
+        "96D",
+        "96E",
+        "96F",
+        "970",
+        "971",
+        "972",
+        "973",
+        "974",
+        "975",
+        "951",
+        "954",
+        "953"
+      ],
+      "symbolHandles": [
+        "96D",
+        "96E",
+        "96F",
+        "970",
+        "971",
+        "972",
+        "973",
+        "974",
+        "975"
+      ],
+      "quantityHandle": "952",
+      "quantitySourceCenterY": 12552.009320836058,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "96D",
+            "96E",
+            "96F",
+            "970",
+            "971",
+            "972",
+            "973",
+            "974",
+            "975"
+          ],
+          "sourceCenterY": 12552.009321277497,
+          "centerX": 22778.708939150943,
+          "width": 1150.0000007826893,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "951"
+          ],
+          "sourceCenterY": 12552.009321138155,
+          "centerX": 24278.708939542288,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "954"
+          ],
+          "sourceCenterY": 12552.085747635714,
+          "centerX": 25929.253191047064,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "953"
+          ],
+          "sourceCenterY": 12552.009320935593,
+          "centerX": 26987.72438849441,
+          "width": 465.8538918851409
+        }
+      ]
+    },
+    {
+      "id": "storm_011",
+      "name": "집수정",
+      "spec": "800x800",
+      "remark": "",
+      "quantity": "-",
+      "unit": "EA",
+      "groupId": "storm_011",
+      "sourceTopY": 12327.009321211706,
+      "height": 450,
+      "contentHandles": [
+        "96B",
+        "96C",
+        "976",
+        "977",
+        "978",
+        "951",
+        "959",
+        "958"
+      ],
+      "symbolHandles": [
+        "96B",
+        "96C",
+        "976",
+        "977",
+        "978"
+      ],
+      "quantityHandle": "957",
+      "quantitySourceCenterY": 12102.009320836058,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "96B",
+            "96C",
+            "976",
+            "977",
+            "978"
+          ],
+          "sourceCenterY": 12102.009321277497,
+          "centerX": 22778.708939150943,
+          "width": 1150.0000007826893,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "951"
+          ],
+          "sourceCenterY": 12552.009321138155,
+          "centerX": 24278.708939542288,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "959"
+          ],
+          "sourceCenterY": 12102.085747635714,
+          "centerX": 25929.253191047064,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "958"
+          ],
+          "sourceCenterY": 12102.009320935593,
+          "centerX": 26987.72438849441,
+          "width": 465.8538918851409
+        }
+      ]
+    },
+    {
+      "id": "storm_012",
+      "name": "U형측구",
+      "spec": "300x300",
+      "remark": "스틸그레이팅",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "storm_012",
+      "sourceTopY": 11877.009321211706,
+      "height": 450,
+      "contentHandles": [
+        "7C1",
+        "7C2",
+        "7C3",
+        "7C4",
+        "96A",
+        "79C",
+        "79B",
+        "7E5"
+      ],
+      "symbolHandles": [
+        "7C1",
+        "7C2",
+        "7C3",
+        "7C4"
+      ],
+      "quantityHandle": "79A",
+      "quantitySourceCenterY": 11652.009320836058,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "7C1",
+            "7C2",
+            "7C3",
+            "7C4"
+          ],
+          "sourceCenterY": 11793.233897831184,
+          "centerX": 22778.708939150943,
+          "width": 1150.0000007826893,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "96A"
+          ],
+          "sourceCenterY": 11427.009321138185,
+          "centerX": 24278.708939542288,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "79C"
+          ],
+          "sourceCenterY": 11652.085747635714,
+          "centerX": 25929.253191047064,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "79B"
+          ],
+          "sourceCenterY": 11652.009320935593,
+          "centerX": 26987.72438849441,
+          "width": 465.8538918851409
+        },
+        {
+          "column": 5,
+          "handles": [
+            "7E5"
+          ],
+          "sourceCenterY": 11652.009320674764,
+          "centerX": 28770.65133482831,
+          "width": 1400.0000007826566
+        }
+      ]
+    },
+    {
+      "id": "storm_013",
+      "name": "U형측구",
+      "spec": "300x300",
+      "remark": "무소음트렌치",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "storm_013",
+      "sourceTopY": 11427.009321211706,
+      "height": 450,
+      "contentHandles": [
+        "7DE",
+        "979",
+        "97A",
+        "97B",
+        "96A",
+        "80A",
+        "809",
+        "807"
+      ],
+      "symbolHandles": [
+        "7DE",
+        "979",
+        "97A",
+        "97B"
+      ],
+      "quantityHandle": "808",
+      "quantitySourceCenterY": 11202.009321107364,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "7DE",
+            "979",
+            "97A",
+            "97B"
+          ],
+          "sourceCenterY": 11343.233897831125,
+          "centerX": 22778.708939150943,
+          "width": 1150.0000007826893,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "96A"
+          ],
+          "sourceCenterY": 11427.009321138185,
+          "centerX": 24278.708939542288,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "80A"
+          ],
+          "sourceCenterY": 11202.085747907078,
+          "centerX": 25929.253191047064,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "809"
+          ],
+          "sourceCenterY": 11202.00932120684,
+          "centerX": 26987.72438849441,
+          "width": 465.8538918851409
+        },
+        {
+          "column": 5,
+          "handles": [
+            "807"
+          ],
+          "sourceCenterY": 11202.009320674764,
+          "centerX": 28770.65133482831,
+          "width": 1400.0000007826566
+        }
+      ]
+    },
+    {
+      "id": "storm_014",
+      "name": "원형수로관",
+      "spec": "D300",
+      "remark": "기성품",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "storm_014",
+      "sourceTopY": 10977.009321211706,
+      "height": 450,
+      "contentHandles": [
+        "7DD",
+        "97C",
+        "97D",
+        "97E",
+        "7DA",
+        "7D9",
+        "7D8",
+        "813"
+      ],
+      "symbolHandles": [
+        "7DD",
+        "97C",
+        "97D",
+        "97E"
+      ],
+      "quantityHandle": "7D7",
+      "quantitySourceCenterY": 10752.009320836058,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "7DD",
+            "97C",
+            "97D",
+            "97E"
+          ],
+          "sourceCenterY": 10893.233897831184,
+          "centerX": 22778.708939150943,
+          "width": 1150.0000007826893,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "7DA"
+          ],
+          "sourceCenterY": 10752.009321138155,
+          "centerX": 24278.708939542288,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "7D9"
+          ],
+          "sourceCenterY": 10752.085747635714,
+          "centerX": 25929.253191047064,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "7D8"
+          ],
+          "sourceCenterY": 10752.009320935593,
+          "centerX": 26987.72438849441,
+          "width": 465.8538918851409
+        },
+        {
+          "column": 5,
+          "handles": [
+            "813"
+          ],
+          "sourceCenterY": 10752.009320674822,
+          "centerX": 28770.65133482831,
+          "width": 1400.0000007826566
+        }
+      ]
+    },
+    {
+      "id": "storm_015",
+      "name": "빗물받이",
+      "spec": "300x400",
+      "remark": "",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "storm_015",
+      "sourceTopY": 10527.009321211706,
+      "height": 450,
+      "contentHandles": [
+        "7C5",
+        "7C6",
+        "796",
+        "799",
+        "798"
+      ],
+      "symbolHandles": [
+        "7C5",
+        "7C6"
+      ],
+      "quantityHandle": "797",
+      "quantitySourceCenterY": 10302.009320836101,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "7C5",
+            "7C6"
+          ],
+          "sourceCenterY": 10302.009321277475,
+          "centerX": 22778.708939150943,
+          "width": 1150.0000007826893,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "796"
+          ],
+          "sourceCenterY": 10302.009321138257,
+          "centerX": 24278.708939542288,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "799"
+          ],
+          "sourceCenterY": 10302.085747635816,
+          "centerX": 25929.253191047064,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "798"
+          ],
+          "sourceCenterY": 10302.009320935636,
+          "centerX": 26987.72438849441,
+          "width": 465.8538918851409
+        }
+      ]
+    },
+    {
+      "id": "storm_016",
+      "name": "관보호공",
+      "spec": "D300",
+      "remark": "",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "storm_016",
+      "sourceTopY": 10077.009321211706,
+      "height": 450,
+      "contentHandles": [
+        "95D",
+        "7FE",
+        "80F",
+        "80E"
+      ],
+      "symbolHandles": [
+        "95D"
+      ],
+      "quantityHandle": "80D",
+      "quantitySourceCenterY": 9852.009320836101,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "95D"
+          ],
+          "sourceCenterY": 9852.009321277723,
+          "centerX": 22778.708939150943,
+          "width": 1150.0000007826893,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "7FE"
+          ],
+          "sourceCenterY": 9177.009321138257,
+          "centerX": 24278.708939542288,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "80F"
+          ],
+          "sourceCenterY": 9852.085747635816,
+          "centerX": 25929.253191047064,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "80E"
+          ],
+          "sourceCenterY": 9852.009320935636,
+          "centerX": 26987.72438849441,
+          "width": 465.8538918851409
+        }
+      ]
+    },
+    {
+      "id": "storm_017",
+      "name": "관보호공",
+      "spec": "D450",
+      "remark": "",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "storm_017",
+      "sourceTopY": 9627.009321211706,
+      "height": 450,
+      "contentHandles": [
+        "95B",
+        "7FE",
+        "801",
+        "800"
+      ],
+      "symbolHandles": [
+        "95B"
+      ],
+      "quantityHandle": "7FF",
+      "quantitySourceCenterY": 9402.009320836101,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "95B"
+          ],
+          "sourceCenterY": 9402.009321277723,
+          "centerX": 22778.708939150943,
+          "width": 1150.0000007826893,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "7FE"
+          ],
+          "sourceCenterY": 9177.009321138257,
+          "centerX": 24278.708939542288,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "801"
+          ],
+          "sourceCenterY": 9402.085747635816,
+          "centerX": 25929.253191047064,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "800"
+          ],
+          "sourceCenterY": 9402.009320935636,
+          "centerX": 26987.72438849441,
+          "width": 465.8538918851409
+        }
+      ]
+    },
+    {
+      "id": "storm_018",
+      "name": "관보호공",
+      "spec": "D600",
+      "remark": "",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "storm_018",
+      "sourceTopY": 9177.009321211706,
+      "height": 450,
+      "contentHandles": [
+        "95C",
+        "7FE",
+        "804",
+        "803"
+      ],
+      "symbolHandles": [
+        "95C"
+      ],
+      "quantityHandle": "802",
+      "quantitySourceCenterY": 8952.009320836101,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "95C"
+          ],
+          "sourceCenterY": 8952.009321277723,
+          "centerX": 22778.708939150943,
+          "width": 1150.0000007826893,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "7FE"
+          ],
+          "sourceCenterY": 9177.009321138257,
+          "centerX": 24278.708939542288,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "804"
+          ],
+          "sourceCenterY": 8952.085747635816,
+          "centerX": 25929.253191047064,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "803"
+          ],
+          "sourceCenterY": 8952.009320935636,
+          "centerX": 26987.72438849441,
+          "width": 465.8538918851409
+        }
+      ]
+    },
+    {
+      "id": "storm_019",
+      "name": "관보호공",
+      "spec": "D800",
+      "remark": "",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "storm_019",
+      "sourceTopY": 8727.009321211706,
+      "height": 450,
+      "contentHandles": [
+        "966",
+        "7FE",
+        "969",
+        "968"
+      ],
+      "symbolHandles": [
+        "966"
+      ],
+      "quantityHandle": "967",
+      "quantitySourceCenterY": 8502.009319900006,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "966"
+          ],
+          "sourceCenterY": 8502.009321277723,
+          "centerX": 22778.708939150943,
+          "width": 1150.0000007826893,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "7FE"
+          ],
+          "sourceCenterY": 9177.009321138257,
+          "centerX": 24278.708939542288,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "969"
+          ],
+          "sourceCenterY": 8502.08574669972,
+          "centerX": 25929.253191047064,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "968"
+          ],
+          "sourceCenterY": 8502.00931999954,
+          "centerX": 26987.72438849441,
+          "width": 465.8538918851409
+        }
+      ]
+    },
+    {
+      "id": "storm_020",
+      "name": "홈통받이",
+      "spec": "D430x640",
+      "remark": "",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "storm_020",
+      "sourceTopY": 8277.009321211706,
+      "height": 450,
+      "contentHandles": [
+        "818",
+        "819",
+        "814",
+        "817",
+        "816"
+      ],
+      "symbolHandles": [
+        "818",
+        "819"
+      ],
+      "quantityHandle": "815",
+      "quantitySourceCenterY": 8052.009320836247,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "818",
+            "819"
+          ],
+          "sourceCenterY": 8052.00932127781,
+          "centerX": 22778.708939150943,
+          "width": 1150.0000007826893,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "814"
+          ],
+          "sourceCenterY": 8052.009321138345,
+          "centerX": 24278.708939542288,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "817"
+          ],
+          "sourceCenterY": 8052.085747635932,
+          "centerX": 25929.253191047064,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "816"
+          ],
+          "sourceCenterY": 8052.009320935724,
+          "centerX": 26987.72438849441,
+          "width": 465.8538918851409
+        }
+      ]
+    },
+    {
+      "id": "storm_021",
+      "name": "기존우수관",
+      "spec": "원본 기호",
+      "remark": "",
+      "quantity": "-",
+      "unit": "",
+      "groupId": "storm_021",
+      "sourceTopY": 7827.009321211706,
+      "height": 450,
+      "contentHandles": [
+        "981",
+        "982",
+        "812"
+      ],
+      "symbolHandles": [
+        "981",
+        "982"
+      ],
+      "quantityHandle": "797",
+      "quantitySourceCenterY": 10302.009320836101,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "981",
+            "982"
+          ],
+          "sourceCenterY": 7602.009321277723,
+          "centerX": 22778.708939150943,
+          "width": 1150.0000007826893,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "812"
+          ],
+          "sourceCenterY": 7602.009321138228,
+          "centerX": 24278.708939542288,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [],
+          "sourceCenterY": 7602.009321211706,
+          "centerX": 25929.253191047064,
+          "width": 1451.0885030095524
+        }
+      ]
+    },
+    {
+      "id": "storm_022",
+      "name": "기존우수맨홀",
+      "spec": "원본 기호",
+      "remark": "",
+      "quantity": "-",
+      "unit": "",
+      "groupId": "storm_022",
+      "sourceTopY": 7377.009321211706,
+      "height": 450,
+      "contentHandles": [
+        "97F",
+        "980",
+        "811"
+      ],
+      "symbolHandles": [
+        "97F",
+        "980"
+      ],
+      "quantityHandle": "797",
+      "quantitySourceCenterY": 10302.009320836101,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "97F",
+            "980"
+          ],
+          "sourceCenterY": 7162.212768152525,
+          "centerX": 22778.708939150943,
+          "width": 1150.0000007826893,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "811"
+          ],
+          "sourceCenterY": 7152.009321138228,
+          "centerX": 24278.708939542288,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [],
+          "sourceCenterY": 7152.009321211706,
+          "centerX": 25929.253191047064,
+          "width": 1451.0885030095524
+        }
+      ]
+    }
+  ],
+  "headerHandles": [
+    "78D",
+    "78E",
+    "78F",
+    "790",
+    "791",
+    "792",
+    "793",
+    "794",
+    "795"
+  ],
+  "verticalBorderHandles": [
+    "78C",
+    "7C7",
+    "7C8",
+    "7C9",
+    "7CA"
+  ],
+  "auxBorderHandles": [],
+  "rowBoundaryHandles": [
+    "78E",
+    "7A6",
+    "7A7",
+    "7A8",
+    "7A9",
+    "7B4",
+    "7B5",
+    "7B6",
+    "7DB",
+    "7DC",
+    "7DF",
+    "7E0",
+    "7E1",
+    "7E2",
+    "7E3",
+    "7E4",
+    "7E6",
+    "7E7",
+    "7E8",
+    "7F3",
+    "7F4",
+    "7FB",
+    "7FC",
+    "7FD",
+    "805",
+    "806",
+    "80B",
+    "80C",
+    "810",
+    "940",
+    "949",
+    "94A",
+    "955",
+    "956",
+    "95A",
+    "965"
+  ],
+  "splitSeparatorHandles": [],
+  "rowsTopY": 16827.009321211706,
+  "headerTopY": 17277.009321211706,
+  "hasQuantityColumn": true,
+  "quantityCenterX": 27645.65133443698,
+  "quantityCellWidth": 650.0,
+  "fullSeparatorHandle": "7A8",
+  "fullSeparatorY": 15477.009320998714
+}

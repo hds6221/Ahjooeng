@@ -1,0 +1,732 @@
+{
+  "schemaVersion": 2,
+  "categoryId": "paving",
+  "categoryName": "포장",
+  "sourceFile": "범례템플릿.dxf",
+  "sourceSha256": "2c8e169eab7f66b222cda9776d8532f54516e3207c0cb3388b5086a459e64437",
+  "baseScaleDenominator": 100,
+  "origin": {
+    "x": 51332.18913916899,
+    "y": 17827.00932121771,
+    "z": 0
+  },
+  "frameWidth": 7566.942397853505,
+  "frameBottomY": 12227.009320725085,
+  "bottomMargin": 99.9999999999618,
+  "tableWidth": 7366.94239785344,
+  "tableLeftX": 51432.18913916899,
+  "tableRightX": 58799.13153702243,
+  "titleTopY": 17727.0093212177,
+  "sourceBottomY": 12327.009320725047,
+  "rowHeight": 450,
+  "outerBorderHandle": "88E",
+  "wipeoutHandle": "86B",
+  "allHandles": [
+    "86B",
+    "86C",
+    "86D",
+    "86E",
+    "86F",
+    "870",
+    "871",
+    "872",
+    "873",
+    "874",
+    "875",
+    "876",
+    "877",
+    "878",
+    "879",
+    "87A",
+    "87B",
+    "87C",
+    "87D",
+    "87E",
+    "87F",
+    "880",
+    "881",
+    "882",
+    "883",
+    "884",
+    "885",
+    "886",
+    "887",
+    "888",
+    "889",
+    "88A",
+    "88B",
+    "88C",
+    "88D",
+    "88E",
+    "88F",
+    "890",
+    "891",
+    "892",
+    "893",
+    "894",
+    "895",
+    "896",
+    "897",
+    "898",
+    "899",
+    "89A",
+    "89B",
+    "89C",
+    "89D",
+    "89E",
+    "89F",
+    "8A0",
+    "8A1",
+    "8A2",
+    "8A3",
+    "8A4",
+    "8A5",
+    "8A6",
+    "8A7",
+    "8A8",
+    "998",
+    "999",
+    "99A",
+    "99B",
+    "99C",
+    "99D",
+    "9C0",
+    "9C1",
+    "9C2",
+    "9C3",
+    "9C4"
+  ],
+  "groups": [],
+  "rows": [
+    {
+      "id": "paving_001",
+      "name": "아스콘포장",
+      "spec": "T=450",
+      "remark": "",
+      "quantity": "-",
+      "unit": "M2",
+      "groupId": "paving_001",
+      "sourceTopY": 16827.0093212177,
+      "height": 450,
+      "contentHandles": [
+        "88F",
+        "890",
+        "86C",
+        "86E",
+        "86D"
+      ],
+      "symbolHandles": [
+        "88F",
+        "890"
+      ],
+      "quantityHandle": "86F",
+      "quantitySourceCenterY": 16602.009320877354,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "88F",
+            "890"
+          ],
+          "sourceCenterY": 16602.009321221667,
+          "centerX": 52057.189139908696,
+          "width": 1150.000001479406,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "86C"
+          ],
+          "sourceCenterY": 16602.009321144193,
+          "centerX": 53557.1891406484,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "86E"
+          ],
+          "sourceCenterY": 16602.060272126233,
+          "centerX": 55207.733392153175,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "86D"
+          ],
+          "sourceCenterY": 16600.786495475877,
+          "centerX": 56266.20458960052,
+          "width": 465.8538918851409
+        }
+      ]
+    },
+    {
+      "id": "paving_002",
+      "name": "블럭포장",
+      "spec": "T=80",
+      "remark": "",
+      "quantity": "-",
+      "unit": "M2",
+      "groupId": "paving_002",
+      "sourceTopY": 16377.009321217702,
+      "height": 450,
+      "contentHandles": [
+        "99C",
+        "99D",
+        "99B",
+        "998",
+        "999"
+      ],
+      "symbolHandles": [
+        "99C",
+        "99D"
+      ],
+      "quantityHandle": "99A",
+      "quantitySourceCenterY": 16152.009320836072,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "99C",
+            "99D"
+          ],
+          "sourceCenterY": 16152.009321294006,
+          "centerX": 52057.189139908696,
+          "width": 1150.000001479406,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "99B"
+          ],
+          "sourceCenterY": 16152.009321144238,
+          "centerX": 53557.1891406484,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "998"
+          ],
+          "sourceCenterY": 16152.060272095283,
+          "centerX": 55207.733392153175,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "999"
+          ],
+          "sourceCenterY": 16150.786495444985,
+          "centerX": 56266.20458960052,
+          "width": 465.8538918851409
+        }
+      ]
+    },
+    {
+      "id": "paving_003",
+      "name": "보도포장",
+      "spec": "T=60",
+      "remark": "",
+      "quantity": "-",
+      "unit": "M2",
+      "groupId": "paving_003",
+      "sourceTopY": 15927.009321217702,
+      "height": 450,
+      "contentHandles": [
+        "8A7",
+        "8A8",
+        "8A5",
+        "8A2",
+        "8A3"
+      ],
+      "symbolHandles": [
+        "8A7",
+        "8A8"
+      ],
+      "quantityHandle": "8A4",
+      "quantitySourceCenterY": 15702.009320836,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "8A7",
+            "8A8"
+          ],
+          "sourceCenterY": 15702.009321293934,
+          "centerX": 52057.189139908696,
+          "width": 1150.000001479406,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "8A5"
+          ],
+          "sourceCenterY": 15702.009321144165,
+          "centerX": 53557.1891406484,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "8A2"
+          ],
+          "sourceCenterY": 15702.06027209521,
+          "centerX": 55207.733392153175,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "8A3"
+          ],
+          "sourceCenterY": 15700.786495444912,
+          "centerX": 56266.20458960052,
+          "width": 465.8538918851409
+        }
+      ]
+    },
+    {
+      "id": "paving_004",
+      "name": "미끄럼방지포장",
+      "spec": "원본 기호",
+      "remark": "",
+      "quantity": "-",
+      "unit": "M2",
+      "groupId": "paving_004",
+      "sourceTopY": 15477.009321217702,
+      "height": 450,
+      "contentHandles": [
+        "89D",
+        "89E",
+        "89F",
+        "8A0"
+      ],
+      "symbolHandles": [
+        "89D",
+        "89E"
+      ],
+      "quantityHandle": "8A1",
+      "quantitySourceCenterY": 15252.009320877269,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "89D",
+            "89E"
+          ],
+          "sourceCenterY": 15252.009321293905,
+          "centerX": 52057.189139908696,
+          "width": 1150.000001479406,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "89F"
+          ],
+          "sourceCenterY": 15252.009320947394,
+          "centerX": 53557.1891406484,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [],
+          "sourceCenterY": 15252.009321217702,
+          "centerX": 55207.733392153175,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "8A0"
+          ],
+          "sourceCenterY": 15250.786495475792,
+          "centerX": 56266.20458960052,
+          "width": 465.8538918851409
+        }
+      ]
+    },
+    {
+      "id": "paving_005",
+      "name": "보차도경계석",
+      "spec": "180x200x1000",
+      "remark": "화강석-직선",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "paving_005",
+      "sourceTopY": 15027.009321217702,
+      "height": 450,
+      "contentHandles": [
+        "878",
+        "870",
+        "871",
+        "872",
+        "87A"
+      ],
+      "symbolHandles": [
+        "878"
+      ],
+      "quantityHandle": "873",
+      "quantitySourceCenterY": 14802.009320835941,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "878"
+          ],
+          "sourceCenterY": 14802.009321283558,
+          "centerX": 52057.189139908696,
+          "width": 1150.000001479406,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "870"
+          ],
+          "sourceCenterY": 14577.009321144107,
+          "centerX": 53557.1891406484,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "871"
+          ],
+          "sourceCenterY": 14127.009320931184,
+          "centerX": 55207.733392153175,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "872"
+          ],
+          "sourceCenterY": 14800.786495444854,
+          "centerX": 56266.20458960052,
+          "width": 465.8538918851409
+        },
+        {
+          "column": 5,
+          "handles": [
+            "87A"
+          ],
+          "sourceCenterY": 14802.009320731371,
+          "centerX": 58049.13153628276,
+          "width": 1400.0000014793404
+        }
+      ]
+    },
+    {
+      "id": "paving_006",
+      "name": "보차도경계석",
+      "spec": "180x200x1000",
+      "remark": "화강석-곡선",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "paving_006",
+      "sourceTopY": 14577.009321217702,
+      "height": 450,
+      "contentHandles": [
+        "879",
+        "870",
+        "871",
+        "874",
+        "87B"
+      ],
+      "symbolHandles": [
+        "879"
+      ],
+      "quantityHandle": "875",
+      "quantitySourceCenterY": 14352.009320835941,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "879"
+          ],
+          "sourceCenterY": 14352.00932127026,
+          "centerX": 52057.189139908696,
+          "width": 1150.000001479406,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "870"
+          ],
+          "sourceCenterY": 14577.009321144107,
+          "centerX": 53557.1891406484,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "871"
+          ],
+          "sourceCenterY": 14127.009320931184,
+          "centerX": 55207.733392153175,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "874"
+          ],
+          "sourceCenterY": 14350.786495444854,
+          "centerX": 56266.20458960052,
+          "width": 465.8538918851409
+        },
+        {
+          "column": 5,
+          "handles": [
+            "87B"
+          ],
+          "sourceCenterY": 14352.009320731371,
+          "centerX": 58049.13153628276,
+          "width": 1400.0000014793404
+        }
+      ]
+    },
+    {
+      "id": "paving_007",
+      "name": "낮춤석",
+      "spec": "180x200x1000",
+      "remark": "화강석-직선",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "paving_007",
+      "sourceTopY": 14127.009321217702,
+      "height": 450,
+      "contentHandles": [
+        "894",
+        "87C",
+        "871",
+        "876",
+        "897"
+      ],
+      "symbolHandles": [
+        "894"
+      ],
+      "quantityHandle": "877",
+      "quantitySourceCenterY": 13902.009320835941,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "894"
+          ],
+          "sourceCenterY": 13902.009321190673,
+          "centerX": 52057.189139908696,
+          "width": 1150.000001479406,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "87C"
+          ],
+          "sourceCenterY": 13677.009321122687,
+          "centerX": 53557.1891406484,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "871"
+          ],
+          "sourceCenterY": 14127.009320931184,
+          "centerX": 55207.733392153175,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "876"
+          ],
+          "sourceCenterY": 13900.786495444796,
+          "centerX": 56266.20458960052,
+          "width": 465.8538918851409
+        },
+        {
+          "column": 5,
+          "handles": [
+            "897"
+          ],
+          "sourceCenterY": 13902.009320731371,
+          "centerX": 58049.13153628276,
+          "width": 1400.0000014793404
+        }
+      ]
+    },
+    {
+      "id": "paving_008",
+      "name": "낮춤석",
+      "spec": "180x200x1000",
+      "remark": "화강석-곡선",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "paving_008",
+      "sourceTopY": 13677.009321217702,
+      "height": 450,
+      "contentHandles": [
+        "893",
+        "87C",
+        "871",
+        "895",
+        "898"
+      ],
+      "symbolHandles": [
+        "893"
+      ],
+      "quantityHandle": "896",
+      "quantitySourceCenterY": 13452.009320835941,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "893"
+          ],
+          "sourceCenterY": 13452.009321128728,
+          "centerX": 52057.189139908696,
+          "width": 1150.000001479406,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "87C"
+          ],
+          "sourceCenterY": 13677.009321122687,
+          "centerX": 53557.1891406484,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "871"
+          ],
+          "sourceCenterY": 14127.009320931184,
+          "centerX": 55207.733392153175,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "895"
+          ],
+          "sourceCenterY": 13450.786495444796,
+          "centerX": 56266.20458960052,
+          "width": 465.8538918851409
+        },
+        {
+          "column": 5,
+          "handles": [
+            "898"
+          ],
+          "sourceCenterY": 13452.009320731371,
+          "centerX": 58049.13153628276,
+          "width": 1400.0000014793404
+        }
+      ]
+    },
+    {
+      "id": "paving_009",
+      "name": "도로경계석",
+      "spec": "150x150x1000",
+      "remark": "",
+      "quantity": "-",
+      "unit": "",
+      "groupId": "paving_009",
+      "sourceTopY": 13227.009321217702,
+      "height": 450,
+      "contentHandles": [
+        "9C3",
+        "9C4",
+        "9C2"
+      ],
+      "symbolHandles": [
+        "9C3"
+      ],
+      "quantityHandle": "86F",
+      "quantitySourceCenterY": 16602.009320877354,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "9C3"
+          ],
+          "sourceCenterY": 13002.009321128653,
+          "centerX": 52057.189139908696,
+          "width": 1150.000001479406,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "9C4"
+          ],
+          "sourceCenterY": 12996.251848163121,
+          "centerX": 53557.1891406484,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "9C2"
+          ],
+          "sourceCenterY": 13002.009320838284,
+          "centerX": 55207.733392153175,
+          "width": 1451.0885030095524
+        }
+      ]
+    }
+  ],
+  "headerHandles": [
+    "87E",
+    "87F",
+    "880",
+    "881",
+    "882",
+    "883",
+    "884",
+    "885",
+    "886"
+  ],
+  "verticalBorderHandles": [
+    "87D",
+    "88A",
+    "88B",
+    "88C",
+    "88D"
+  ],
+  "auxBorderHandles": [],
+  "rowBoundaryHandles": [
+    "87F",
+    "887",
+    "888",
+    "889",
+    "891",
+    "892",
+    "899",
+    "89A",
+    "89B",
+    "89C",
+    "8A6",
+    "9C0",
+    "9C1"
+  ],
+  "splitSeparatorHandles": [],
+  "rowsTopY": 16827.0093212177,
+  "headerTopY": 17277.0093212177,
+  "hasQuantityColumn": true,
+  "quantityCenterX": 56924.13153554309,
+  "quantityCellWidth": 650.0,
+  "fullSeparatorHandle": "887",
+  "fullSeparatorY": 15027.00932100165
+}

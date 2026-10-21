@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "defaultCategoryId": "storm",
+  "sourceDwg": "범례템플릿.dwg",
+  "sourceDwgSha256": "aa24ac456395cb3be2bce7bb45308381ae572d821100b60c0dd416f38b1bc568",
+  "categories": [
+    {
+      "id": "construction",
+      "name": "공사",
+      "manifestFile": "categories/construction.json",
+      "itemCount": 8
+    },
+    {
+      "id": "watershed",
+      "name": "유역",
+      "manifestFile": "categories/watershed.json",
+      "itemCount": 1
+    },
+    {
+      "id": "storm",
+      "name": "우수",
+      "manifestFile": "categories/storm.json",
+      "itemCount": 22
+    },
+    {
+      "id": "sewage",
+      "name": "오수",
+      "manifestFile": "categories/sewage.json",
+      "itemCount": 9
+    },
+    {
+      "id": "water",
+      "name": "상수",
+      "manifestFile": "categories/water.json",
+      "itemCount": 11
+    },
+    {
+      "id": "paving",
+      "name": "포장",
+      "manifestFile": "categories/paving.json",
+      "itemCount": 9
+    },
+    {
+      "id": "auxiliary",
+      "name": "부대",
+      "manifestFile": "categories/auxiliary.json",
+      "itemCount": 34
+    }
+  ]
+}

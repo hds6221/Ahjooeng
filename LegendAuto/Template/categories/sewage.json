@@ -1,0 +1,786 @@
+{
+  "schemaVersion": 2,
+  "categoryId": "sewage",
+  "categoryName": "오수",
+  "sourceFile": "범례템플릿.dxf",
+  "sourceSha256": "2c8e169eab7f66b222cda9776d8532f54516e3207c0cb3388b5086a459e64437",
+  "baseScaleDenominator": 100,
+  "origin": {
+    "x": 31813.202338692026,
+    "y": 17827.009321446683,
+    "z": 0
+  },
+  "frameWidth": 7566.9423957897525,
+  "frameBottomY": 12677.009321730739,
+  "bottomMargin": 99.99999985476097,
+  "tableWidth": 7366.942395680493,
+  "tableLeftX": 31913.202338581697,
+  "tableRightX": 39280.14473426219,
+  "titleTopY": 17727.00932144665,
+  "sourceBottomY": 12777.0093215855,
+  "rowHeight": 450,
+  "outerBorderHandle": "835",
+  "wipeoutHandle": "81A",
+  "allHandles": [
+    "81A",
+    "81B",
+    "81C",
+    "81D",
+    "81E",
+    "81F",
+    "820",
+    "821",
+    "822",
+    "823",
+    "824",
+    "825",
+    "826",
+    "827",
+    "828",
+    "829",
+    "82A",
+    "82B",
+    "82C",
+    "82D",
+    "82E",
+    "82F",
+    "830",
+    "831",
+    "832",
+    "833",
+    "834",
+    "835",
+    "836",
+    "837",
+    "838",
+    "839",
+    "83A",
+    "83B",
+    "83C",
+    "83D",
+    "83E",
+    "83F",
+    "840",
+    "841",
+    "842",
+    "843",
+    "844",
+    "845",
+    "846",
+    "847",
+    "848",
+    "849",
+    "84A",
+    "84B",
+    "84C",
+    "84D",
+    "84E",
+    "84F",
+    "850",
+    "851",
+    "852",
+    "853",
+    "854",
+    "855",
+    "856",
+    "857",
+    "858",
+    "859",
+    "85A",
+    "85B",
+    "85C",
+    "85D",
+    "85E",
+    "85F",
+    "860",
+    "861",
+    "862",
+    "95E",
+    "95F",
+    "960",
+    "961",
+    "962",
+    "963",
+    "964",
+    "983",
+    "984",
+    "985",
+    "986",
+    "987",
+    "988"
+  ],
+  "groups": [],
+  "rows": [
+    {
+      "id": "sewage_001",
+      "name": "원형맨홀",
+      "spec": "D900",
+      "remark": "",
+      "quantity": "-",
+      "unit": "EA",
+      "groupId": "sewage_001",
+      "sourceTopY": 16827.00932144665,
+      "height": 450,
+      "contentHandles": [
+        "81B",
+        "850",
+        "851",
+        "852",
+        "853",
+        "854",
+        "823",
+        "84F",
+        "822"
+      ],
+      "symbolHandles": [
+        "81B",
+        "850",
+        "851",
+        "852",
+        "853",
+        "854"
+      ],
+      "quantityHandle": "821",
+      "quantitySourceCenterY": 16602.009320877325,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "81B",
+            "850",
+            "851",
+            "852",
+            "853",
+            "854"
+          ],
+          "sourceCenterY": 16612.40619338977,
+          "centerX": 32538.202338821873,
+          "width": 1150.000000480355,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "823"
+          ],
+          "sourceCenterY": 16602.009321336962,
+          "centerX": 34038.20233906205,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "84F"
+          ],
+          "sourceCenterY": 16602.06027222232,
+          "centerX": 35688.74659056683,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "822"
+          ],
+          "sourceCenterY": 16602.00932741141,
+          "centerX": 36747.217788014175,
+          "width": 465.8538918851409
+        }
+      ]
+    },
+    {
+      "id": "sewage_002",
+      "name": "소형맨홀",
+      "spec": "D740",
+      "remark": "",
+      "quantity": "-",
+      "unit": "EA",
+      "groupId": "sewage_002",
+      "sourceTopY": 16377.00932144665,
+      "height": 450,
+      "contentHandles": [
+        "856",
+        "857",
+        "858",
+        "859",
+        "85A",
+        "85B",
+        "85C",
+        "85D",
+        "85E",
+        "860",
+        "861"
+      ],
+      "symbolHandles": [
+        "856",
+        "857",
+        "858",
+        "859",
+        "85A",
+        "85B",
+        "85C",
+        "85D"
+      ],
+      "quantityHandle": "84E",
+      "quantitySourceCenterY": 16152.009320701773,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "856",
+            "857",
+            "858",
+            "859",
+            "85A",
+            "85B",
+            "85C",
+            "85D"
+          ],
+          "sourceCenterY": 16162.406190985444,
+          "centerX": 32538.202338821873,
+          "width": 1150.000000480355,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "85E"
+          ],
+          "sourceCenterY": 16152.00931774264,
+          "centerX": 34038.20233906205,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "860"
+          ],
+          "sourceCenterY": 16152.060272222307,
+          "centerX": 35688.74659056683,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "861"
+          ],
+          "sourceCenterY": 16152.009325017769,
+          "centerX": 36747.217788014175,
+          "width": 465.8538918851409
+        }
+      ]
+    },
+    {
+      "id": "sewage_003",
+      "name": "오수관",
+      "spec": "D200",
+      "remark": "PVC이중벽관",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "sewage_003",
+      "sourceTopY": 15927.00932144665,
+      "height": 450,
+      "contentHandles": [
+        "95E",
+        "95F",
+        "960",
+        "963",
+        "962",
+        "836"
+      ],
+      "symbolHandles": [
+        "95E",
+        "95F"
+      ],
+      "quantityHandle": "961",
+      "quantitySourceCenterY": 15702.00932090841,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "95E",
+            "95F"
+          ],
+          "sourceCenterY": 15702.009315488549,
+          "centerX": 32538.202338821873,
+          "width": 1150.000000480355,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "960"
+          ],
+          "sourceCenterY": 15252.009321445536,
+          "centerX": 34038.20233906205,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "963"
+          ],
+          "sourceCenterY": 15702.060272294717,
+          "centerX": 35688.74659056683,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "962"
+          ],
+          "sourceCenterY": 15702.009322453983,
+          "centerX": 36747.217788014175,
+          "width": 465.8538918851409
+        },
+        {
+          "column": 5,
+          "handles": [
+            "836"
+          ],
+          "sourceCenterY": 15027.00932080381,
+          "centerX": 38530.14473410947,
+          "width": 1400.0000003054447
+        }
+      ]
+    },
+    {
+      "id": "sewage_004",
+      "name": "오수관",
+      "spec": "D250",
+      "remark": "PVC이중벽관",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "sewage_004",
+      "sourceTopY": 15477.00932144665,
+      "height": 450,
+      "contentHandles": [
+        "81C",
+        "81D",
+        "960",
+        "820",
+        "81F",
+        "836"
+      ],
+      "symbolHandles": [
+        "81C",
+        "81D"
+      ],
+      "quantityHandle": "81E",
+      "quantitySourceCenterY": 15252.00932090841,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "81C",
+            "81D"
+          ],
+          "sourceCenterY": 15252.009315488549,
+          "centerX": 32538.202338821873,
+          "width": 1150.000000480355,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "960"
+          ],
+          "sourceCenterY": 15252.009321445536,
+          "centerX": 34038.20233906205,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "820"
+          ],
+          "sourceCenterY": 15252.060272294717,
+          "centerX": 35688.74659056683,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "81F"
+          ],
+          "sourceCenterY": 15252.009322453983,
+          "centerX": 36747.217788014175,
+          "width": 465.8538918851409
+        },
+        {
+          "column": 5,
+          "handles": [
+            "836"
+          ],
+          "sourceCenterY": 15027.00932080381,
+          "centerX": 38530.14473410947,
+          "width": 1400.0000003054447
+        }
+      ]
+    },
+    {
+      "id": "sewage_005",
+      "name": "오수관",
+      "spec": "D300",
+      "remark": "PVC이중벽관",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "sewage_005",
+      "sourceTopY": 15027.00932144665,
+      "height": 450,
+      "contentHandles": [
+        "846",
+        "847",
+        "960",
+        "84A",
+        "849",
+        "836"
+      ],
+      "symbolHandles": [
+        "846",
+        "847"
+      ],
+      "quantityHandle": "848",
+      "quantitySourceCenterY": 14802.00932090841,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "846",
+            "847"
+          ],
+          "sourceCenterY": 14802.009315488549,
+          "centerX": 32538.202338821873,
+          "width": 1150.000000480355,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "960"
+          ],
+          "sourceCenterY": 15252.009321445536,
+          "centerX": 34038.20233906205,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "84A"
+          ],
+          "sourceCenterY": 14802.060272294717,
+          "centerX": 35688.74659056683,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "849"
+          ],
+          "sourceCenterY": 14802.009322453983,
+          "centerX": 36747.217788014175,
+          "width": 465.8538918851409
+        },
+        {
+          "column": 5,
+          "handles": [
+            "836"
+          ],
+          "sourceCenterY": 15027.00932080381,
+          "centerX": 38530.14473410947,
+          "width": 1400.0000003054447
+        }
+      ]
+    },
+    {
+      "id": "sewage_006",
+      "name": "연결관",
+      "spec": "D150",
+      "remark": "PVC이중벽관",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "sewage_006",
+      "sourceTopY": 14577.00932144665,
+      "height": 450,
+      "contentHandles": [
+        "83C",
+        "843",
+        "842",
+        "844",
+        "836"
+      ],
+      "symbolHandles": [
+        "83C"
+      ],
+      "quantityHandle": "841",
+      "quantitySourceCenterY": 14352.00932090841,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "83C"
+          ],
+          "sourceCenterY": 14352.00931063013,
+          "centerX": 32538.202338821873,
+          "width": 1150.000000480355,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "843"
+          ],
+          "sourceCenterY": 14352.00930990399,
+          "centerX": 34038.20233906205,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "842"
+          ],
+          "sourceCenterY": 14352.060272294717,
+          "centerX": 35688.74659056683,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "844"
+          ],
+          "sourceCenterY": 14352.009317251499,
+          "centerX": 36747.217788014175,
+          "width": 465.8538918851409
+        },
+        {
+          "column": 5,
+          "handles": [
+            "836"
+          ],
+          "sourceCenterY": 15027.00932080381,
+          "centerX": 38530.14473410947,
+          "width": 1400.0000003054447
+        }
+      ]
+    },
+    {
+      "id": "sewage_007",
+      "name": "오수받이",
+      "spec": "410X510",
+      "remark": "기성품",
+      "quantity": "-",
+      "unit": "EA",
+      "groupId": "sewage_007",
+      "sourceTopY": 14127.00932144665,
+      "height": 450,
+      "contentHandles": [
+        "839",
+        "83A",
+        "83B",
+        "83F",
+        "83E",
+        "840",
+        "845"
+      ],
+      "symbolHandles": [
+        "839",
+        "83A",
+        "83B"
+      ],
+      "quantityHandle": "83D",
+      "quantitySourceCenterY": 13902.00932110486,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "839",
+            "83A",
+            "83B"
+          ],
+          "sourceCenterY": 13902.00930824513,
+          "centerX": 32538.202338821873,
+          "width": 1150.000000480355,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "83F"
+          ],
+          "sourceCenterY": 13902.009307345996,
+          "centerX": 34038.20233906205,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "83E"
+          ],
+          "sourceCenterY": 13902.060272294717,
+          "centerX": 35688.74659056683,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "840"
+          ],
+          "sourceCenterY": 13902.009314693505,
+          "centerX": 36747.217788014175,
+          "width": 465.8538918851409
+        },
+        {
+          "column": 5,
+          "handles": [
+            "845"
+          ],
+          "sourceCenterY": 13902.009320860621,
+          "centerX": 38530.14473410947,
+          "width": 1400.0000003054447
+        }
+      ]
+    },
+    {
+      "id": "sewage_008",
+      "name": "기존오수관",
+      "spec": "원본 기호",
+      "remark": "",
+      "quantity": "-",
+      "unit": "",
+      "groupId": "sewage_008",
+      "sourceTopY": 13677.00932144665,
+      "height": 450,
+      "contentHandles": [
+        "987",
+        "988",
+        "984"
+      ],
+      "symbolHandles": [
+        "987",
+        "988"
+      ],
+      "quantityHandle": "81E",
+      "quantitySourceCenterY": 15252.00932090841,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "987",
+            "988"
+          ],
+          "sourceCenterY": 13452.009321584972,
+          "centerX": 32538.202338821873,
+          "width": 1150.000000480355,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "984"
+          ],
+          "sourceCenterY": 13452.009321445477,
+          "centerX": 34038.20233906205,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [],
+          "sourceCenterY": 13452.00932144665,
+          "centerX": 35688.74659056683,
+          "width": 1451.0885030095524
+        }
+      ]
+    },
+    {
+      "id": "sewage_009",
+      "name": "기존오수맨홀",
+      "spec": "원본 기호",
+      "remark": "",
+      "quantity": "-",
+      "unit": "",
+      "groupId": "sewage_009",
+      "sourceTopY": 13227.00932144665,
+      "height": 450,
+      "contentHandles": [
+        "985",
+        "986",
+        "983"
+      ],
+      "symbolHandles": [
+        "985",
+        "986"
+      ],
+      "quantityHandle": "81E",
+      "quantitySourceCenterY": 15252.00932090841,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "985",
+            "986"
+          ],
+          "sourceCenterY": 13012.212768459774,
+          "centerX": 32538.202338821873,
+          "width": 1150.000000480355,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "983"
+          ],
+          "sourceCenterY": 13002.009321445477,
+          "centerX": 34038.20233906205,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [],
+          "sourceCenterY": 13002.00932144665,
+          "centerX": 35688.74659056683,
+          "width": 1451.0885030095524
+        }
+      ]
+    }
+  ],
+  "headerHandles": [
+    "825",
+    "826",
+    "827",
+    "828",
+    "829",
+    "82A",
+    "82B",
+    "82C",
+    "82D"
+  ],
+  "verticalBorderHandles": [
+    "824",
+    "831",
+    "832",
+    "833",
+    "834"
+  ],
+  "auxBorderHandles": [],
+  "rowBoundaryHandles": [
+    "826",
+    "82E",
+    "82F",
+    "830",
+    "837",
+    "838",
+    "84B",
+    "84C",
+    "84D",
+    "855",
+    "862",
+    "964"
+  ],
+  "splitSeparatorHandles": [],
+  "rowsTopY": 16827.00932144665,
+  "headerTopY": 17277.00932144665,
+  "hasQuantityColumn": true,
+  "quantityCenterX": 37405.144733956746,
+  "quantityCellWidth": 650.0,
+  "fullSeparatorHandle": "838",
+  "fullSeparatorY": 14127.00932118858
+}

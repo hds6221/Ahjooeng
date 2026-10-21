@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AutoCAD 자동 로드 폴더(ApplicationPlugins)용 설명 파일.
+     AutoCAD 2020(R23.1)을 켤 때 범례 플러그인을 자동으로 불러오고(메뉴 막대 Ahjooeng 생성),
+     혹시 시작할 때 못 불러왔더라도 아래 명령을 입력하면 그때 불러옵니다. -->
+<ApplicationPackage SchemaVersion="1.0" AutodeskProduct="AutoCAD" ProductType="Application"
+    Name="Ahjooeng" AppVersion="1.0.0" FriendlyVersion="1.0.0" Author="Ahjooeng"
+    Description="Ahjooeng AutoCAD 자동화 명령 모음 - 범례 생성(LGD)"
+    ProductCode="{8C3E3B5E-6A33-4D2A-9E8E-6D1C2B7A51A1}" UpgradeCode="{5B1F2E9A-0C4D-4B7E-8A63-2F9D6E4C1B70}"
+    SupportedLocales="Kor|Enu" HelpFile="./Contents/LegendAuto/Help/index.html">
+  <CompanyDetails Name="Ahjooeng" />
+  <RuntimeRequirements OS="Win64" Platform="AutoCAD*" SeriesMin="R23.1" SeriesMax="R23.1" />
+  <Components Description="LegendAuto - 범례 생성">
+    <RuntimeRequirements OS="Win64" Platform="AutoCAD*" SeriesMin="R23.1" SeriesMax="R23.1" />
+    <ComponentEntry AppName="AhjooengLegend" Version="1.0.0" ModuleName="./Contents/LegendAuto/StormLegend.dll"
+        AppDescription="범례 생성 (LGD / LEGEND)" LoadOnAutoCADStartup="True" LoadOnCommandInvocation="True">
+      <Commands GroupName="AHJOOENG_LEGEND">
+        <Command Local="LGD" Global="LGD" />
+        <Command Local="LEGEND" Global="LEGEND" />
+        <Command Local="STORMLEGEND" Global="STORMLEGEND" />
+        <Command Local="LEGENDALL" Global="LEGENDALL" />
+        <Command Local="LEGENDORIGINAL" Global="LEGENDORIGINAL" />
+        <Command Local="LEGENDTEMPLATE" Global="LEGENDTEMPLATE" />
+        <Command Local="LEGENDSETTINGS" Global="LEGENDSETTINGS" />
+        <Command Local="LEGENDHELP" Global="LEGENDHELP" />
+        <Command Local="AHJOOENGHELP" Global="AHJOOENGHELP" />
+        <Command Local="AHJOOENGINFO" Global="AHJOOENGINFO" />
+        <Command Local="AHJOOENGMENU" Global="AHJOOENGMENU" />
+        <Command Local="AHJOOENGDIA" Global="AHJOOENGDIA" />
+      </Commands>
+    </ComponentEntry>
+  </Components>
+</ApplicationPackage>

@@ -1,0 +1,198 @@
+PASS: 7 categories and 94 items
+INFO: LEGEND window ready in 1269 ms (preview data read once, category screens built on first use)
+PASS: default storm has 22 items
+PASS: dark tool-window background
+PASS: template edit button is on the main window
+PASS: window 1120x585: {Width=1120, Height=585}
+PASS: window opens in the middle of the screen: {X=392,Y=208,Width=1136,Height=624} in {X=0,Y=0,Width=1920,Height=1040}
+PASS: category tab strip
+PASS: every toolbar button shows a text label (불러오기·저장·비우기·빼기·위로·아래로·빈 행 추가)
+PASS: toolbar keeps only essential buttons
+PASS: construction intentional initial selection
+PASS: construction quantity policy
+PASS: construction grid lists every selected row
+PASS: construction every text cell is readable (contrast >= 4.5)
+PASS: construction names/specs left, quantities right
+PASS: construction selected cell contrast
+PASS: construction blank row button policy
+PASS: construction list rows tall enough for a readable symbol (32~36px)
+PASS: construction sample preset
+PASS: construction atomic preset update
+PASS: construction card removes
+PASS: construction re-added item returns to its template position
+PASS: construction quantity editor contrast
+PASS: construction quantity editing
+PASS: construction invalid preset changes nothing
+PASS: watershed intentional initial selection
+PASS: watershed quantity policy
+PASS: watershed grid lists every selected row
+PASS: watershed every text cell is readable (contrast >= 4.5)
+PASS: watershed names/specs left, quantities right
+PASS: watershed selected cell contrast
+PASS: watershed blank row button policy
+PASS: watershed list rows tall enough for a readable symbol (32~36px)
+PASS: watershed sample preset
+PASS: watershed atomic preset update
+PASS: watershed card removes
+PASS: watershed re-added item returns to its template position
+PASS: watershed invalid preset changes nothing
+PASS: storm intentional initial selection
+PASS: storm quantity policy
+PASS: storm grid lists every selected row
+PASS: storm every text cell is readable (contrast >= 4.5)
+PASS: storm names/specs left, quantities right
+PASS: storm selected cell contrast
+PASS: storm blank row button policy
+PASS: blank-after while a cell is being edited: no reentrancy error, new blank row selected
+PASS: blank row inserted below the chosen row (middle)
+PASS: blank row added at the bottom
+PASS: move up shifts the current (bottom blank) row
+PASS: move down shifts the blank row
+PASS: summary counts blank rows
+PASS: blank rows removed
+PASS: storm list rows tall enough for a readable symbol (32~36px)
+PASS: hovering a symbol opens the large symbol view
+PASS: large symbol view does not take focus
+PASS: large symbol view draws the symbol (850 dark samples)
+PASS: large symbol view closes when the mouse leaves
+PASS: selected-items symbols are drawn larger (76x26)
+PASS: storm sample preset
+PASS: storm atomic preset update
+PASS: storm card removes
+PASS: storm re-added item returns to its template position
+PASS: storm quantity editor contrast
+PASS: storm quantity editing
+PASS: storm invalid preset changes nothing
+PASS: sewage intentional initial selection
+PASS: sewage quantity policy
+PASS: sewage grid lists every selected row
+PASS: sewage every text cell is readable (contrast >= 4.5)
+PASS: sewage names/specs left, quantities right
+PASS: sewage selected cell contrast
+PASS: sewage blank row button policy
+PASS: sewage list rows tall enough for a readable symbol (32~36px)
+PASS: sewage sample preset
+PASS: sewage atomic preset update
+PASS: sewage card removes
+PASS: sewage re-added item returns to its template position
+PASS: sewage quantity editor contrast
+PASS: sewage quantity editing
+PASS: sewage invalid preset changes nothing
+PASS: water intentional initial selection
+PASS: water quantity policy
+PASS: water grid lists every selected row
+PASS: water every text cell is readable (contrast >= 4.5)
+PASS: water names/specs left, quantities right
+PASS: water selected cell contrast
+PASS: water blank row button policy
+PASS: water list rows tall enough for a readable symbol (32~36px)
+PASS: water sample preset
+PASS: water atomic preset update
+PASS: water card removes
+PASS: water re-added item returns to its template position
+PASS: water quantity editor contrast
+PASS: water quantity editing
+PASS: water invalid preset changes nothing
+PASS: paving intentional initial selection
+PASS: paving quantity policy
+PASS: paving grid lists every selected row
+PASS: paving every text cell is readable (contrast >= 4.5)
+PASS: paving names/specs left, quantities right
+PASS: paving selected cell contrast
+PASS: paving blank row button policy
+PASS: name edit commits
+PASS: spec edit commits
+PASS: name/spec edits reach model
+PASS: edited labels persist
+PASS: reset button restores original name/spec
+PASS: paving list rows tall enough for a readable symbol (32~36px)
+PASS: paving sample preset
+PASS: paving atomic preset update
+PASS: paving card removes
+PASS: paving re-added item returns to its template position
+PASS: paving quantity editor contrast
+PASS: paving quantity editing
+PASS: paving invalid preset changes nothing
+PASS: auxiliary intentional initial selection
+PASS: auxiliary quantity policy
+PASS: auxiliary grid lists every selected row
+PASS: auxiliary every text cell is readable (contrast >= 4.5)
+PASS: auxiliary names/specs left, quantities right
+PASS: auxiliary selected cell contrast
+PASS: auxiliary blank row button policy
+PASS: auxiliary list rows tall enough for a readable symbol (32~36px)
+PASS: auxiliary 34 items listed one per line in a single column (scrolls when needed)
+PASS: rows fit the list width at minimum window size
+PASS: auxiliary sample preset
+PASS: auxiliary atomic preset update
+PASS: auxiliary card removes
+PASS: auxiliary re-added item returns to its template position
+PASS: auxiliary quantity editor contrast
+PASS: auxiliary quantity editing
+PASS: auxiliary invalid preset changes nothing
+PASS: category switch preserves selection and quantity
+PASS: search box: inner text has no own border and fits inside the frame (frame drawn on all four sides)
+PASS: search matches source specification
+PASS: space key toggles focused row
+PASS: default scale 1:100
+PASS: zero scale rejected
+PASS: non-numeric scale rejected
+PASS: scale 1:300 shows three times
+PASS: plain 300 also accepted
+PASS: one confirmation returns seven categories and scale 300
+PASS: saved preset restores per category
+INFO: second LEGEND window ready in 268 ms (preview data reused from cache)
+PASS: default settings
+PASS: settings are saved to file
+PASS: settings window shows current values
+PASS: settings 'default' button restores defaults
+PASS: invalid edit blocks category switch and explains why
+PASS: cancel during invalid editing
+PASS: remember-scale setting stores the last scale
+PASS: next window starts at the remembered scale
+PASS: all-empty batch disables generation
+PASS: empty preview stays inside its viewport
+PASS: inactive category selection still enables generation
+PASS: empty categories omitted, edited selection kept
+PASS: 설정 저장 실패 안내: 이번 생성에는 적용
+PASS: 저장 실패 후 즉시 생성: 확정한 설정 사본이 생성 요청에 포함
+PASS: 확정 뒤 설정을 바꿔도(다른 프로세스 변경 등) 요청 사본은 그대로
+PASS: 미리보기 손상: 비활성 상태와 원인을 표시
+PASS: 미리보기 손상: 항목 선택·생성은 가능
+PASS: 미리보기 손상: 생성 요청 정상
+PASS: category presets cannot cross load
+PASS: empty label remains intentionally empty 0
+PASS: preview icon accessibility 0
+PASS: empty label remains intentionally empty 1
+PASS: preview icon accessibility 1
+PASS: empty label remains intentionally empty 2
+PASS: preview icon accessibility 2
+PASS: empty label remains intentionally empty 3
+PASS: preview icon accessibility 3
+PASS: empty label remains intentionally empty 4
+PASS: preview icon accessibility 4
+PASS: empty label remains intentionally empty 5
+PASS: preview icon accessibility 5
+PASS: empty label remains intentionally empty 6
+PASS: preview icon accessibility 6
+PASS: empty label remains intentionally empty 7
+PASS: preview icon accessibility 7
+PASS: pending refresh after edit/tab/cancel/close does not throw
+PASS: cleared default opens with empty selection
+PASS: hatch island remains a hole
+PASS: hatch preview draws the real pattern (horizontal lines: 4 rows, 6 dark px; diagonal px 6)
+PASS: scaled 125%: button labels and table rows/headers fit their text ()
+PASS: scaled 125%: controls stay inside their parents ()
+PASS: scaled 125%: toolbar buttons do not overlap ()
+PASS: scaled 150%: button labels and table rows/headers fit their text ()
+PASS: scaled 150%: controls stay inside their parents ()
+PASS: scaled 150%: toolbar buttons do not overlap ()
+PASS: scaled 175%: button labels and table rows/headers fit their text ()
+PASS: scaled 175%: controls stay inside their parents ()
+PASS: scaled 175%: toolbar buttons do not overlap ()
+PASS: scaled 200%: button labels and table rows/headers fit their text ()
+PASS: scaled 200%: controls stay inside their parents ()
+PASS: scaled 200%: toolbar buttons do not overlap ()
+LOADED: StormLegend.Core C:\Users\owner\Desktop\개발파일\Autocad_auto\LegendAuto\bin\Final\StormLegend.Core.dll
+LOADED: StormLegend C:\Users\owner\Desktop\개발파일\Autocad_auto\LegendAuto\bin\Final\StormLegend.dll
+SUCCESS: 193 picker checks.

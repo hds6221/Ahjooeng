@@ -1,0 +1,862 @@
+{
+  "schemaVersion": 2,
+  "categoryId": "water",
+  "categoryName": "상수",
+  "sourceFile": "범례템플릿.dxf",
+  "sourceSha256": "2c8e169eab7f66b222cda9776d8532f54516e3207c0cb3388b5086a459e64437",
+  "baseScaleDenominator": 100,
+  "origin": {
+    "x": 41572.695738962815,
+    "y": 17827.009321214304,
+    "z": 0
+  },
+  "frameWidth": 7566.942396481056,
+  "frameBottomY": 11327.009322001404,
+  "bottomMargin": 100.0000000000091,
+  "tableWidth": 7366.94239648107,
+  "tableLeftX": 41672.695738962815,
+  "tableRightX": 49039.638135443885,
+  "titleTopY": 17727.009321214315,
+  "sourceBottomY": 11427.009322001413,
+  "rowHeight": 450,
+  "outerBorderHandle": "751",
+  "wipeoutHandle": "73F",
+  "allHandles": [
+    "73F",
+    "740",
+    "741",
+    "742",
+    "743",
+    "744",
+    "745",
+    "746",
+    "747",
+    "748",
+    "749",
+    "74A",
+    "74B",
+    "74C",
+    "74D",
+    "74E",
+    "74F",
+    "750",
+    "751",
+    "752",
+    "753",
+    "754",
+    "755",
+    "756",
+    "863",
+    "864",
+    "865",
+    "866",
+    "867",
+    "868",
+    "869",
+    "86A",
+    "98C",
+    "98D",
+    "98E",
+    "98F",
+    "990",
+    "991",
+    "992",
+    "993",
+    "994",
+    "995",
+    "996",
+    "997",
+    "99E",
+    "99F",
+    "9A0",
+    "9A1",
+    "9A2",
+    "9A3",
+    "9A4",
+    "9A5",
+    "9A6",
+    "9A7",
+    "9A8",
+    "9A9",
+    "9AA",
+    "9AB",
+    "9AC",
+    "9AD",
+    "9AE",
+    "9AF",
+    "9B0",
+    "9B1",
+    "9B2",
+    "9C5"
+  ],
+  "groups": [],
+  "rows": [
+    {
+      "id": "water_001",
+      "name": "신설상수관",
+      "spec": "D50",
+      "remark": "내충격수도관",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "water_001",
+      "sourceTopY": 16827.009321214315,
+      "height": 450,
+      "contentHandles": [
+        "756",
+        "755",
+        "753",
+        "754",
+        "995"
+      ],
+      "symbolHandles": [
+        "756"
+      ],
+      "quantityHandle": "752",
+      "quantitySourceCenterY": 16602.009320877354,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "756"
+          ],
+          "sourceCenterY": 15927.009321971413,
+          "centerX": 42297.695739359406,
+          "width": 1150.0000007931812
+        },
+        {
+          "column": 1,
+          "handles": [
+            "755"
+          ],
+          "sourceCenterY": 15927.009321868138,
+          "centerX": 43797.695739755996,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "753"
+          ],
+          "sourceCenterY": 16600.786494393942,
+          "centerX": 45448.23999126077,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "754"
+          ],
+          "sourceCenterY": 16602.009321621365,
+          "centerX": 46506.71118870812,
+          "width": 465.8538918851409
+        },
+        {
+          "column": 5,
+          "handles": [
+            "995"
+          ],
+          "sourceCenterY": 15927.009321546628,
+          "centerX": 48289.63813504729,
+          "width": 1400.0000007931958
+        }
+      ]
+    },
+    {
+      "id": "water_002",
+      "name": "신설상수관",
+      "spec": "D75",
+      "remark": "내충격수도관",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "water_002",
+      "sourceTopY": 16377.009321214315,
+      "height": 450,
+      "contentHandles": [
+        "756",
+        "755",
+        "98D",
+        "98E",
+        "995"
+      ],
+      "symbolHandles": [
+        "756"
+      ],
+      "quantityHandle": "98C",
+      "quantitySourceCenterY": 16152.009320701802,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "756"
+          ],
+          "sourceCenterY": 15927.009321971413,
+          "centerX": 42297.695739359406,
+          "width": 1150.0000007931812,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "755"
+          ],
+          "sourceCenterY": 15927.009321868138,
+          "centerX": 43797.695739755996,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "98D"
+          ],
+          "sourceCenterY": 16150.78649421839,
+          "centerX": 45448.23999126077,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "98E"
+          ],
+          "sourceCenterY": 16152.009321445812,
+          "centerX": 46506.71118870812,
+          "width": 465.8538918851409
+        },
+        {
+          "column": 5,
+          "handles": [
+            "995"
+          ],
+          "sourceCenterY": 15927.009321546628,
+          "centerX": 48289.63813504729,
+          "width": 1400.0000007931958
+        }
+      ]
+    },
+    {
+      "id": "water_003",
+      "name": "신설상수관",
+      "spec": "D100",
+      "remark": "내충격수도관",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "water_003",
+      "sourceTopY": 15927.009321214315,
+      "height": 450,
+      "contentHandles": [
+        "756",
+        "755",
+        "992",
+        "993",
+        "995"
+      ],
+      "symbolHandles": [
+        "756"
+      ],
+      "quantityHandle": "991",
+      "quantitySourceCenterY": 15702.009320526247,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "756"
+          ],
+          "sourceCenterY": 15927.009321971413,
+          "centerX": 42297.695739359406,
+          "width": 1150.0000007931812,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "755"
+          ],
+          "sourceCenterY": 15927.009321868138,
+          "centerX": 43797.695739755996,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "992"
+          ],
+          "sourceCenterY": 15700.786494042835,
+          "centerX": 45448.23999126077,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "993"
+          ],
+          "sourceCenterY": 15702.009321270258,
+          "centerX": 46506.71118870812,
+          "width": 465.8538918851409
+        },
+        {
+          "column": 5,
+          "handles": [
+            "995"
+          ],
+          "sourceCenterY": 15927.009321546628,
+          "centerX": 48289.63813504729,
+          "width": 1400.0000007931958
+        }
+      ]
+    },
+    {
+      "id": "water_004",
+      "name": "신설상수관",
+      "spec": "D150",
+      "remark": "내충격수도관",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "water_004",
+      "sourceTopY": 15477.009321214315,
+      "height": 450,
+      "contentHandles": [
+        "756",
+        "755",
+        "996",
+        "997",
+        "995"
+      ],
+      "symbolHandles": [
+        "756"
+      ],
+      "quantityHandle": "994",
+      "quantitySourceCenterY": 15252.009320855965,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "756"
+          ],
+          "sourceCenterY": 15927.009321971413,
+          "centerX": 42297.695739359406,
+          "width": 1150.0000007931812
+        },
+        {
+          "column": 1,
+          "handles": [
+            "755"
+          ],
+          "sourceCenterY": 15927.009321868138,
+          "centerX": 43797.695739755996,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "996"
+          ],
+          "sourceCenterY": 15250.786494372553,
+          "centerX": 45448.23999126077,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "997"
+          ],
+          "sourceCenterY": 15252.009321599975,
+          "centerX": 46506.71118870812,
+          "width": 465.8538918851409
+        },
+        {
+          "column": 5,
+          "handles": [
+            "995"
+          ],
+          "sourceCenterY": 15927.009321546628,
+          "centerX": 48289.63813504729,
+          "width": 1400.0000007931958
+        }
+      ]
+    },
+    {
+      "id": "water_005",
+      "name": "신설상수관",
+      "spec": "D150",
+      "remark": "공동주택용",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "water_005",
+      "sourceTopY": 15027.009321214315,
+      "height": 450,
+      "contentHandles": [
+        "9A7",
+        "9B2",
+        "9A5",
+        "9A6",
+        "9A8"
+      ],
+      "symbolHandles": [
+        "9A7"
+      ],
+      "quantityHandle": "9A4",
+      "quantitySourceCenterY": 14802.009322661756,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "9A7"
+          ],
+          "sourceCenterY": 14802.009323002663,
+          "centerX": 42297.695739359406,
+          "width": 1150.0000007931812,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "9B2"
+          ],
+          "sourceCenterY": 14577.009325304165,
+          "centerX": 43797.695739755996,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "9A5"
+          ],
+          "sourceCenterY": 14800.786496178343,
+          "centerX": 45448.23999126077,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "9A6"
+          ],
+          "sourceCenterY": 14802.009323405766,
+          "centerX": 46506.71118870812,
+          "width": 465.8538918851409
+        },
+        {
+          "column": 5,
+          "handles": [
+            "9A8"
+          ],
+          "sourceCenterY": 14802.009323089072,
+          "centerX": 48289.63813504729,
+          "width": 1400.0000007931958
+        }
+      ]
+    },
+    {
+      "id": "water_006",
+      "name": "신설상수관",
+      "spec": "D150",
+      "remark": "근생시설용",
+      "quantity": "-",
+      "unit": "M",
+      "groupId": "water_006",
+      "sourceTopY": 14577.009321214315,
+      "height": 450,
+      "contentHandles": [
+        "9AC",
+        "9B2",
+        "9AA",
+        "9AB",
+        "9AD"
+      ],
+      "symbolHandles": [
+        "9AC"
+      ],
+      "quantityHandle": "9A9",
+      "quantitySourceCenterY": 14352.009322867534,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "9AC"
+          ],
+          "sourceCenterY": 14352.009323208442,
+          "centerX": 42297.695739359406,
+          "width": 1150.0000007931812,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "9B2"
+          ],
+          "sourceCenterY": 14577.009325304165,
+          "centerX": 43797.695739755996,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "9AA"
+          ],
+          "sourceCenterY": 14350.786496384122,
+          "centerX": 45448.23999126077,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "9AB"
+          ],
+          "sourceCenterY": 14352.009323611544,
+          "centerX": 46506.71118870812,
+          "width": 465.8538918851409
+        },
+        {
+          "column": 5,
+          "handles": [
+            "9AD"
+          ],
+          "sourceCenterY": 14352.009323294851,
+          "centerX": 48289.63813504729,
+          "width": 1400.0000007931958
+        }
+      ]
+    },
+    {
+      "id": "water_007",
+      "name": "제수변",
+      "spec": "D50",
+      "remark": "보호통포함",
+      "quantity": "-",
+      "unit": "EA",
+      "groupId": "water_007",
+      "sourceTopY": 14127.009321214315,
+      "height": 450,
+      "contentHandles": [
+        "86A",
+        "863",
+        "9AE",
+        "867",
+        "868"
+      ],
+      "symbolHandles": [
+        "86A"
+      ],
+      "quantityHandle": "866",
+      "quantitySourceCenterY": 13902.009320133811,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "86A"
+          ],
+          "sourceCenterY": 13227.009320583467,
+          "centerX": 42297.695739359406,
+          "width": 1150.0000007931812
+        },
+        {
+          "column": 1,
+          "handles": [
+            "863"
+          ],
+          "sourceCenterY": 13227.009323322849,
+          "centerX": 43797.695739755996,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "9AE"
+          ],
+          "sourceCenterY": 13900.78649939826,
+          "centerX": 45448.23999126077,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "867"
+          ],
+          "sourceCenterY": 13902.009320888212,
+          "centerX": 46506.71118870812,
+          "width": 465.8538918851409
+        },
+        {
+          "column": 5,
+          "handles": [
+            "868"
+          ],
+          "sourceCenterY": 13902.009320029329,
+          "centerX": 48289.63813504729,
+          "width": 1400.0000007931958
+        }
+      ]
+    },
+    {
+      "id": "water_008",
+      "name": "제수변",
+      "spec": "D75",
+      "remark": "",
+      "quantity": "-",
+      "unit": "EA",
+      "groupId": "water_008",
+      "sourceTopY": 13677.009321214315,
+      "height": 450,
+      "contentHandles": [
+        "86A",
+        "863",
+        "9AF",
+        "867"
+      ],
+      "symbolHandles": [
+        "86A"
+      ],
+      "quantityHandle": "866",
+      "quantitySourceCenterY": 13902.009320133811,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "86A"
+          ],
+          "sourceCenterY": 13227.009320583467,
+          "centerX": 42297.695739359406,
+          "width": 1150.0000007931812
+        },
+        {
+          "column": 1,
+          "handles": [
+            "863"
+          ],
+          "sourceCenterY": 13227.009323322849,
+          "centerX": 43797.695739755996,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "9AF"
+          ],
+          "sourceCenterY": 13450.786499222706,
+          "centerX": 45448.23999126077,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "867"
+          ],
+          "sourceCenterY": 13902.009320888212,
+          "centerX": 46506.71118870812,
+          "width": 465.8538918851409
+        }
+      ]
+    },
+    {
+      "id": "water_009",
+      "name": "제수변",
+      "spec": "D100",
+      "remark": "",
+      "quantity": "-",
+      "unit": "EA",
+      "groupId": "water_009",
+      "sourceTopY": 13227.009321214315,
+      "height": 450,
+      "contentHandles": [
+        "86A",
+        "863",
+        "9B0",
+        "867"
+      ],
+      "symbolHandles": [
+        "86A"
+      ],
+      "quantityHandle": "866",
+      "quantitySourceCenterY": 13902.009320133811,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "86A"
+          ],
+          "sourceCenterY": 13227.009320583467,
+          "centerX": 42297.695739359406,
+          "width": 1150.0000007931812
+        },
+        {
+          "column": 1,
+          "handles": [
+            "863"
+          ],
+          "sourceCenterY": 13227.009323322849,
+          "centerX": 43797.695739755996,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "9B0"
+          ],
+          "sourceCenterY": 13000.786499047152,
+          "centerX": 45448.23999126077,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "867"
+          ],
+          "sourceCenterY": 13902.009320888212,
+          "centerX": 46506.71118870812,
+          "width": 465.8538918851409
+        }
+      ]
+    },
+    {
+      "id": "water_010",
+      "name": "제수변",
+      "spec": "D150",
+      "remark": "",
+      "quantity": "-",
+      "unit": "EA",
+      "groupId": "water_010",
+      "sourceTopY": 12777.009321214315,
+      "height": 450,
+      "contentHandles": [
+        "86A",
+        "863",
+        "9B1",
+        "867"
+      ],
+      "symbolHandles": [
+        "86A"
+      ],
+      "quantityHandle": "866",
+      "quantitySourceCenterY": 13902.009320133811,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "86A"
+          ],
+          "sourceCenterY": 13227.009320583467,
+          "centerX": 42297.695739359406,
+          "width": 1150.0000007931812
+        },
+        {
+          "column": 1,
+          "handles": [
+            "863"
+          ],
+          "sourceCenterY": 13227.009323322849,
+          "centerX": 43797.695739755996,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "9B1"
+          ],
+          "sourceCenterY": 12550.786499376869,
+          "centerX": 45448.23999126077,
+          "width": 1451.0885030095524
+        },
+        {
+          "column": 3,
+          "handles": [
+            "867"
+          ],
+          "sourceCenterY": 13902.009320888212,
+          "centerX": 46506.71118870812,
+          "width": 465.8538918851409
+        }
+      ]
+    },
+    {
+      "id": "water_011",
+      "name": "기존상수관",
+      "spec": "-",
+      "remark": "",
+      "quantity": "-",
+      "unit": "",
+      "groupId": "water_011",
+      "sourceTopY": 12327.009321214315,
+      "height": 450,
+      "contentHandles": [
+        "869",
+        "864",
+        "865"
+      ],
+      "symbolHandles": [
+        "869"
+      ],
+      "quantityHandle": "752",
+      "quantitySourceCenterY": 16602.009320877354,
+      "cells": [
+        {
+          "column": 0,
+          "handles": [
+            "869"
+          ],
+          "sourceCenterY": 12102.0093223838,
+          "centerX": 42297.695739359406,
+          "width": 1150.0000007931812,
+          "keepRowOffset": true
+        },
+        {
+          "column": 1,
+          "handles": [
+            "864"
+          ],
+          "sourceCenterY": 12102.009322244392,
+          "centerX": 43797.695739755996,
+          "width": 1650.0
+        },
+        {
+          "column": 2,
+          "handles": [
+            "865"
+          ],
+          "sourceCenterY": 12100.786495497488,
+          "centerX": 45448.23999126077,
+          "width": 1451.0885030095524
+        }
+      ]
+    }
+  ],
+  "headerHandles": [
+    "741",
+    "742",
+    "743",
+    "744",
+    "745",
+    "746",
+    "747",
+    "748",
+    "749"
+  ],
+  "verticalBorderHandles": [
+    "740",
+    "74D",
+    "74E",
+    "74F",
+    "750"
+  ],
+  "auxBorderHandles": [],
+  "rowBoundaryHandles": [
+    "742",
+    "74A",
+    "74B",
+    "74C",
+    "98F",
+    "990",
+    "99E",
+    "99F",
+    "9A0",
+    "9A1",
+    "9A2",
+    "9A3",
+    "9C5"
+  ],
+  "splitSeparatorHandles": [],
+  "rowsTopY": 16827.009321214315,
+  "headerTopY": 17277.009321214315,
+  "hasQuantityColumn": true,
+  "quantityCenterX": 47164.63813465069,
+  "quantityCellWidth": 650.0,
+  "fullSeparatorHandle": "74B",
+  "fullSeparatorY": 15027.009322454745
+}
